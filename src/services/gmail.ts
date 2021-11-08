@@ -2,6 +2,7 @@ import Config from '../config';
 import nodemailer from 'nodemailer';
 
 
+
 class Email {
   private owner : any;
   private transporter;
@@ -25,12 +26,16 @@ class Email {
     this.transporter.verify().then(() => console.log('READY To Send Email'));
   }
 
-  async sendEmail(dest: string, subject: string, content: string) {
+  async sendEmail(dest: string, subject: string, content: string, profilePic : string) {
     const mailOptions = {
       from: this.owner,
       to: dest,
       subject,
       html: content,
+      attachments : [{
+        filename: 'profilepic.jpg',
+        path: profilePic
+      }]
     };
 
     const response = await this.transporter.sendMail(mailOptions);

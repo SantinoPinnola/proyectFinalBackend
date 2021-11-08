@@ -50,7 +50,9 @@ const loginFunc: VerifyFunction = async (
   logger.info(refreshToken);
   logger.info(profile);
   logger.info(profile._json.email)
-  await EmailService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile));
+  if (profile.photos) {
+    await EmailService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile),profile.photos[0].value as string);
+  }
   await EtherealService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile));
   return done(null, profile);
 };
