@@ -38,9 +38,9 @@ class ProductController {
         })
     }
 
-    async getProducts(req: Request, res: Response) {
+    async getProducts() {
         const total = await productos.find().lean();
-        res.render('main', { products : total} );
+        return total;
     };
         
 

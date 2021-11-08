@@ -9,20 +9,21 @@ import {
 import { Request, Response, NextFunction } from 'express';
 import { fbClientIdArgument, fbClientSecretArgument } from '../utils/getArgs';
 import { logger } from './logger';
-import { EmailService } from '../services/email';
+import { EmailService } from '../services/gmail';
+import { EtherealService } from '../services/etherealmail';
 
 
-const subjectEmail = (loggedOrLogOut : boolean, profile : Profile) => {
-  let stringReturn : string;
+export function subjectEmail(loggedOrLogOut: boolean, profile: Profile) {
+  let stringReturn: string;
   if (loggedOrLogOut = true) {
-  stringReturn = `
+    stringReturn = `
   Logged at: ${new Date()}/n
-  Username: ${profile.name}
+  Username: ${profile.displayName}
   `;
   } else {
-  stringReturn = `
+    stringReturn = `
   Logged out at: ${new Date()}/n
-  Username: ${profile.name}
+  Username: ${profile.displayName}
   `;
   }
 
@@ -48,7 +49,9 @@ const loginFunc: VerifyFunction = async (
   logger.info(accessToken);
   logger.info(refreshToken);
   logger.info(profile);
-  await EmailService.sendEmail(profile.emails as any,'Logged in', subjectEmail(true,profile));
+  logger.info(profile._json.email)
+  await EmailService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile));
+  await EtherealService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile));
   return done(null, profile);
 };
 

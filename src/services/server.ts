@@ -58,10 +58,6 @@ app.use(passport.session());
 
 app.use('/api', apiRouter)
 
-app.use('/', (req, res) => {
-  res.json({msg : "hola heroku"});
-})
-;
 
 const myServer = new http.Server(app);
 
