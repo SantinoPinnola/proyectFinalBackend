@@ -1,6 +1,12 @@
   <br />
   <div class='alert alert-success alertaLogout' role='alert'>
-    <h2>Bienvenido {{this.username}}!</h2>
+        <br>
+        <h2><i>Bienvenido {{nombre}}</i></h2>
+        <br>
+        <img src="{{foto}}" width="100" alt=""><br>
+        <a href="#">{{email}}</a>
+        <br>
+        <br>
     <form action='/api/logout' method='POST' autocomplete='off'>
       <button class='btn btn-warning' id='destroy' name='destroy'>Logout</button>
     </form>

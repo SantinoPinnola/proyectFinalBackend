@@ -27,7 +27,7 @@ router.get('/signUpPage', (req: Request, res: Response) => {
     res.render('signup');
 })
 
-router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
+router.post('/login', passport.authenticate('login', { scope : ['email']}), (req : Request, res : Response) => {
     res.render('main', {username : req.body.username});
 });
 
