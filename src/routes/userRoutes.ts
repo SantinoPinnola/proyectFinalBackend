@@ -62,7 +62,7 @@ router.post('/logout', (req: Request, res: Response) => {
     if (userData.emails) email = userData.emails[0].value;
     req.session.destroy((err) => {
         res.redirect('/api');
-        EmailService.sendEmail(email,'Logged Out',subjectEmail(false, userData.displayName as string))
+        EmailService.sendEmail(email,'Logged Out',subjectEmail(false, userData.displayName as string),foto)
         EtherealService.sendEmail(email,'Logged Out',subjectEmail(false, userData.displayName as string))
     });
 })
