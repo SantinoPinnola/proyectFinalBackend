@@ -1,0 +1,122 @@
+Nov-10-2021 23:13:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618b4d98bbef076323a81150"),[39m
+[33m    username: 'gordis',[39m
+[33m    email: 'abbaon@hormail.com',[39m
+[33m    password: '$2b$10$.TQtSsZt3TxxKw8izmu0oOGd1lSEo/0DlD9eHhw3QiQkxzPmdbBIW',[39m
+[33m    firstName: 'santino',[39m
+[33m    lastName: 'pinnola',[39m
+[33m    age: 19,[39m
+[33m    address: 'asdasd',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:14:24 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618b4d98bbef076323a81150"),[39m
+[33m    username: 'gordis',[39m
+[33m    email: 'abbaon@hormail.com',[39m
+[33m    password: '$2b$10$.TQtSsZt3TxxKw8izmu0oOGd1lSEo/0DlD9eHhw3QiQkxzPmdbBIW',[39m
+[33m    firstName: 'santino',[39m
+[33m    lastName: 'pinnola',[39m
+[33m    age: 19,[39m
+[33m    address: 'asdasd',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:19:41 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618b4d98bbef076323a81150"),[39m
+[33m    username: 'gordis',[39m
+[33m    email: 'abbaon@hormail.com',[39m
+[33m    password: '$2b$10$.TQtSsZt3TxxKw8izmu0oOGd1lSEo/0DlD9eHhw3QiQkxzPmdbBIW',[39m
+[33m    firstName: 'santino',[39m
+[33m    lastName: 'pinnola',[39m
+[33m    age: 19,[39m
+[33m    address: 'asdasd',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:19:41 | [33mwarn[39m: [33mel result es:[39m
+Nov-10-2021 23:20:31 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618b4d98bbef076323a81150"),[39m
+[33m    username: 'gordis',[39m
+[33m    email: 'abbaon@hormail.com',[39m
+[33m    password: '$2b$10$.TQtSsZt3TxxKw8izmu0oOGd1lSEo/0DlD9eHhw3QiQkxzPmdbBIW',[39m
+[33m    firstName: 'santino',[39m
+[33m    lastName: 'pinnola',[39m
+[33m    age: 19,[39m
+[33m    address: 'asdasd',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:20:42 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618c7c3f6f4a175bdae21a24"),[39m
+[33m    username: 'santinop',[39m
+[33m    email: 'santi213@gmail.com',[39m
+[33m    password: '$2b$10$n9ZinO.Tk8csGooJ9.L3mOVlffyp/3PxjiPkRstn3KQHBUkk6HdLi',[39m
+[33m    firstName: 'roberto',[39m
+[33m    lastName: 'pepito',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:20:42 | [33mwarn[39m: [33mel result es:[39m
+Nov-10-2021 23:22:46 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618c7c3f6f4a175bdae21a24"),[39m
+[33m    username: 'santinop',[39m
+[33m    email: 'santi213@gmail.com',[39m
+[33m    password: '$2b$10$n9ZinO.Tk8csGooJ9.L3mOVlffyp/3PxjiPkRstn3KQHBUkk6HdLi',[39m
+[33m    firstName: 'roberto',[39m
+[33m    lastName: 'pepito',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:23:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618c7c3f6f4a175bdae21a24"),[39m
+[33m    username: 'santinop',[39m
+[33m    email: 'santi213@gmail.com',[39m
+[33m    password: '$2b$10$n9ZinO.Tk8csGooJ9.L3mOVlffyp/3PxjiPkRstn3KQHBUkk6HdLi',[39m
+[33m    firstName: 'roberto',[39m
+[33m    lastName: 'pepito',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:23:01 | [33mwarn[39m: [33mel result es:[39m
+Nov-10-2021 23:23:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618c7c3f6f4a175bdae21a24"),[39m
+[33m    username: 'santinop',[39m
+[33m    email: 'santi213@gmail.com',[39m
+[33m    password: '$2b$10$n9ZinO.Tk8csGooJ9.L3mOVlffyp/3PxjiPkRstn3KQHBUkk6HdLi',[39m
+[33m    firstName: 'roberto',[39m
+[33m    lastName: 'pepito',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:24:23 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618c7c3f6f4a175bdae21a24"),[39m
+[33m    username: 'santinop',[39m
+[33m    email: 'santi213@gmail.com',[39m
+[33m    password: '$2b$10$n9ZinO.Tk8csGooJ9.L3mOVlffyp/3PxjiPkRstn3KQHBUkk6HdLi',[39m
+[33m    firstName: 'roberto',[39m
+[33m    lastName: 'pepito',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:25:04 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618c7c3f6f4a175bdae21a24"),[39m
+[33m    username: 'santinop',[39m
+[33m    email: 'santi213@gmail.com',[39m
+[33m    password: '$2b$10$n9ZinO.Tk8csGooJ9.L3mOVlffyp/3PxjiPkRstn3KQHBUkk6HdLi',[39m
+[33m    firstName: 'roberto',[39m
+[33m    lastName: 'pepito',[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-10-2021 23:25:04 | [33mwarn[39m: [33mel result es:[39m

@@ -1,5 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
 import { CartI, ProductCart, CartBaseClass } from '../interfaces/cartInterfaces';
+import { logger } from '../middlewares/logger'
 
 const cartSchema = new mongoose.Schema<CartI>({
   userId: {
@@ -24,7 +25,7 @@ export class CartsAtlas implements CartBaseClass {
 
   async get(userId: string): Promise<CartI> {
     const result = await this.carts.findOne({ userId });
-
+    logger.warn('el result es:', result);
     if (!result) throw new Error('id not found');
 
     return result;

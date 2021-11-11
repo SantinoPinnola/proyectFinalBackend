@@ -12,7 +12,7 @@ import passport from 'passport';
 
 const StoreOptions = {
     store: MongoStore.create({
-      mongoUrl: 'mongodb://localhost/coderhouse'
+      mongoUrl: 'mongodb://localhost:27017/coderhouse'
     }),
     secret: 'asdasasdasfas',
     resave: false,

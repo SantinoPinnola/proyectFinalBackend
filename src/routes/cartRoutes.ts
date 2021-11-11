@@ -1,18 +1,19 @@
-import {Router} from 'express';
-import { checkAdmin } from '../middlewares/checkAdm';
-import { productController } from "../controllers/productsController";
-import { cartController } from '../controllers/cartController';
-
-
+import { Router } from 'express';
+import { CartController } from '../controllers/cartController';
+import { isLoggedIn } from '../middlewares/auth';
 const router = Router();
 
+router.get('/', CartController.getCartByUser);
 
-router.get('/list', cartController.getProducts);
+router.post('/add', CartController.addProduct);
 
-router.get('/list/:id', cartController.checkProductExist ,cartController.getProducts);
+router.post('/delete', CartController.deleteProduct);
 
-router.post('/add/:id', productController.checkProductExist, cartController.addProductsCartID);
+// Crean documento orders
+// Sacan snapshot del carrito tal como esta y lo agregan a la orden
+//le ponen en la orden info del usuario
+// Vacian carrito
+//Mandan mensajitos
+router.post('submit');
 
-router.delete('/delete/:id', cartController.checkProductExist, cartController.deleteProductCart);
-
-export default router;
+export default router; 

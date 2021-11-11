@@ -1,49 +1,64 @@
-import { Request, Response, NextFunction} from 'express';
+import { CartAPI } from '../apis/cartAPI';
+import { Request, Response, NextFunction } from 'express';
+import { UserI } from '../interfaces/usersInterfaces';
+import { productsAPI } from '../apis/productsAPI';
 
+class Cart {
+  async getCartByUser(req: Request, res: Response) {
+    const user: any = req.user;
+    const cart = await CartAPI.getCart(user._id);
+    res.json(cart);
+  }
 
+  async addProduct(req: Request, res: Response) {
+    const user: any = req.user;
+    const cart = await CartAPI.getCart(user._id);
 
-class CartController {
+    const { productId, productAmount } = req.body;
 
-    checkProductExist (req: Request, res: Response, next: NextFunction) {
-        const idProd = Number(req.params.id);;
+    if (!productId || !productAmount)
+      return res.status(400).json({ msg: 'Invalid body parameters' });
 
-    
+    const product = await productsAPI.getProducts(productId);
 
-        next();
-    }
+    if (!product.length)
+      return res.status(400).json({ msg: 'product not found' });
 
-    getProducts(req: Request, res: Response) {
-        const idProd = Number(req.params.id);
-    
-       res.json({
-         
-        });
+    if (parseInt(productAmount) < 0)
+      return res.status(400).json({ msg: 'Invalid amount' });
 
-    }
+    const updatedCart = await CartAPI.addProduct(
+      cart._id,
+      productId,
+      parseInt(productAmount)
+    );
+    res.json({ msg: 'Product added', cart: updatedCart });
+  }
 
-    addProductsCartID(req: Request, res: Response) {
-        const idProd = Number(req.params.id);
+  async deleteProduct(req: Request, res: Response) {
+    const user: any = req.user;
+    const cart = await CartAPI.getCart(user._id);
 
-       
-        
+    const { productId, productAmount } = req.body;
 
+    if (!productId || !productAmount)
+      return res.status(400).json({ msg: 'Invalid body parameters' });
 
-        res.json({
-            msg : 'Product added successfully'
-        });
-    }
+    const product = await productsAPI.getProducts(productId);
 
-    deleteProductCart(req: Request, res: Response) {
-        const idProd = Number(req.params.id);
-        
-  
+    if (!product.length)
+      return res.status(400).json({ msg: 'product not found' });
 
-        res.json({
-            msg : 'Product deleted successfully'
-        });
-    }
+    if (parseInt(productAmount) < 0)
+      return res.status(400).json({ msg: 'Invalid amount' });
 
-
+    const updatedCart = await CartAPI.deleteProduct(
+      cart._id,
+      productId,
+      parseInt(productAmount)
+    );
+    res.json({ msg: 'Product deleted', cart: updatedCart });
+  }
 }
 
-export const cartController = new CartController();
+export const CartController = new Cart();

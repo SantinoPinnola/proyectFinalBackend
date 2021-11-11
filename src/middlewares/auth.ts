@@ -1,84 +1,116 @@
-import passport, { Profile } from 'passport';
-import { UserModel } from '../models/userModels';
-import Config from '../config/index';
+import passport from 'passport';
 import {
-  VerifyFunction,
-  StrategyOption,
-  Strategy as FaceBookStrategy,
-} from 'passport-facebook';
+  Strategy,
+  VerifyFunctionWithRequest,
+  IStrategyOptionsWithRequest,
+} from 'passport-local';
 import { Request, Response, NextFunction } from 'express';
-import { fbClientIdArgument, fbClientSecretArgument } from '../utils/getArgs';
-import { logger } from './logger';
-import { EmailService } from '../services/gmail';
-import { EtherealService } from '../services/etherealmail';
+import { UserAPI } from '../apis/userAPI';
+import { userJoiSchema } from '../interfaces/usersInterfaces';
+import { logger } from '../middlewares/logger'
 
+const admin = true;
 
-export function subjectEmail(loggedOrLogOut: boolean, profile: Profile) {
-  let stringReturn: string;
-  if (loggedOrLogOut = true) {
-    stringReturn = `
-  Logged at: ${new Date()}/n
-  Username: ${profile.displayName}
-  `;
-  } else {
-    stringReturn = `
-  Logged out at: ${new Date()}/n
-  Username: ${profile.displayName}
-  `;
+export const checkAdmin = (req: Request, res: Response, next: NextFunction) => {
+  logger.info('EJECUTANDO MIDDLEWARE');
+  if (admin) next();
+  else {
+    res.status(401).json({
+      msg: 'No estas autorizado',
+    });
   }
-
-  return stringReturn;
-}
-
-const strategyOptions: StrategyOption = {
-  clientID: fbClientIdArgument || Config.FACEBOOK_APP_ID,
-  clientSecret: fbClientSecretArgument || Config.FACEBOOK_APP_SECRET,
-  callbackURL: 'http://localhost:8080/api/auth/facebook/callback',
-  profileFields: ['id', 'displayName', 'photos', 'emails'],
 };
 
+const strategyOptions: IStrategyOptionsWithRequest = {
+  usernameField: 'username',
+  passwordField: 'password',
+  passReqToCallback: true,
+};
 
-
-const loginFunc: VerifyFunction = async (
-  accessToken,
-  refreshToken,
-  profile,
+const loginFunc: VerifyFunctionWithRequest = async (
+  req,
+  username,
+  password,
   done
 ) => {
-  logger.info('SALIO TODO BIEN');
-  logger.info(accessToken);
-  logger.info(refreshToken);
-  logger.info(profile);
-  logger.info(profile._json.email)
-  if (profile.photos) {
-    await EmailService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile),profile.photos[0].value as string);
+  const user = await UserAPI.query(username);
+
+  if (!user) {
+    logger.warn(`Login Fail for username ${username}: User does not exist`);
+    return done(null, false, { message: 'User does not exist' });
   }
-  await EtherealService.sendEmail(profile._json.email,'Logged in', subjectEmail(true,profile));
-  return done(null, profile);
+
+  const check = await UserAPI.ValidatePassword(username, password);
+
+  if (!check) {
+    logger.warn('Login Fail for username ${username}: Password is not valid');
+    return done(null, false, { message: 'Password is not valid.' });
+  }
+
+  logger.info(`User ${username} logged in at ${new Date()}`);
+  return done(null, user);
 };
 
-passport.use(new FaceBookStrategy(strategyOptions, loginFunc));
+const signUpFunc: VerifyFunctionWithRequest = async (
+  req,
+  username,
+  password,
+  done
+) => {
+  try {
+    await userJoiSchema.validateAsync(req.body);
 
-
-//passport.use('signup', new LocalStrategy(localStrategyOptions, signupFunction));
-
-export const isLoggedIn = (req : Request, res : Response, done: (arg0: null, arg1: any) => void) => {
-    if (!req.user) return res.status(401).json({ msg: 'Unathorized' });
-  
-    done(null, req.user);
+    const { email } = req.body;
+    const user = await UserAPI.query(username, email);
+    logger.info(user);
+    if (user) {
+      logger.warn(
+        `Signup Fail for username ${username}: Username or email already exists`
+      );
+      return done(null, {
+        error: `Invalid Username/email`,
+      });
+    } else {
+      const newUser = await UserAPI.addUser(req.body);
+      return done(null, newUser);
+    }
+  } catch (err) {
+    if (err instanceof Error) {
+      logger.error(err.message);
+      return done(null, {
+        error: err.message,
+      });
+    }
+  }
 };
 
-interface User {
-    _id? : String
-}
-  
-passport.serializeUser(function (user, cb) {
-  cb(null, user);
+passport.use('login', new Strategy(strategyOptions, loginFunc));
+passport.use('signup', new Strategy(strategyOptions, signUpFunc));
+
+passport.serializeUser((user: any, done) => {
+  done(null, user._id);
 });
 
-passport.deserializeUser(function (obj: string, cb) {
-  cb(null, obj);
+passport.deserializeUser(async (userId: string, done) => {
+  try {
+    const result = await UserAPI.getUsers(userId);
+    logger.warn(result);
+    done(null, result[0]);
+  } catch (err) {
+    done(err);
+  }
 });
 
+export const isLoggedIn = (req: Request, res: Response, done: NextFunction) => {
+  if (!req.user) return res.status(401).json({ msg: 'Unathorized' });
+
+  done();
+};
+
+export const isAdmin = (req: Request, res: Response, done: NextFunction) => {
+  if (!req.user) return res.status(401).json({ msg: 'Unathorized' });
+
+  done();
+};
 
 export default passport;
