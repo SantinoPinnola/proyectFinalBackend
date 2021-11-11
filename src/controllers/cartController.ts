@@ -2,6 +2,7 @@ import { CartAPI } from '../apis/cartAPI';
 import { Request, Response, NextFunction } from 'express';
 import { UserI } from '../interfaces/usersInterfaces';
 import { productsAPI } from '../apis/productsAPI';
+import { logger } from '../middlewares/logger';
 
 class Cart {
   async getCartByUser(req: Request, res: Response) {
@@ -12,16 +13,17 @@ class Cart {
 
   async addProduct(req: Request, res: Response) {
     const user: any = req.user;
+    logger.info(req.body);
     const cart = await CartAPI.getCart(user._id);
-
+    logger.warn(cart);
     const { productId, productAmount } = req.body;
 
     if (!productId || !productAmount)
       return res.status(400).json({ msg: 'Invalid body parameters' });
 
     const product = await productsAPI.getProducts(productId);
-
-    if (!product.length)
+    logger.warn(product);
+    if (!product)
       return res.status(400).json({ msg: 'product not found' });
 
     if (parseInt(productAmount) < 0)
@@ -32,12 +34,13 @@ class Cart {
       productId,
       parseInt(productAmount)
     );
-    res.json({ msg: 'Product added', cart: updatedCart });
+    res.redirect('/api/vista');
   }
 
   async deleteProduct(req: Request, res: Response) {
     const user: any = req.user;
     const cart = await CartAPI.getCart(user._id);
+    logger.warn(req.body);
 
     const { productId, productAmount } = req.body;
 
@@ -45,8 +48,7 @@ class Cart {
       return res.status(400).json({ msg: 'Invalid body parameters' });
 
     const product = await productsAPI.getProducts(productId);
-
-    if (!product.length)
+    if (!product)
       return res.status(400).json({ msg: 'product not found' });
 
     if (parseInt(productAmount) < 0)
@@ -57,7 +59,7 @@ class Cart {
       productId,
       parseInt(productAmount)
     );
-    res.json({ msg: 'Product deleted', cart: updatedCart });
+    res.redirect('/api/userCart');
   }
 }
 

@@ -1,30 +1,21 @@
 import {Router} from 'express';
 import { Request, Response } from 'express';
-import { UsersAtlas } from '../models/userModels';
 import passport from '../middlewares/auth';
-
-
-function subjectEmail(loggedOrLogOut: boolean, displayName : string)  {
-    let stringReturn: string;
-    if (loggedOrLogOut = true) {
-      stringReturn = `
-    Logged at: ${new Date()}/n
-    Username: ${displayName}
-    `;
-    } else {
-      stringReturn = `
-    Logged out at: ${new Date()}/n
-    Username: ${displayName}
-    `;
-    }
-  
-    return stringReturn;
-}
+import { isLoggedIn } from '../middlewares/auth';
+import {productsAtlas} from '../models/productsModels'
+import {logger} from '../middlewares/logger';
+import { CartAPI } from '../apis/cartAPI';
+import { ProductCart } from '../interfaces/cartInterfaces';
+import {EmailService} from '../services/gmail';
+import config from '../config';
 
 const router = Router();
 
 
 router.get('/', async (req, res) => {
+  if (req.isAuthenticated()) { 
+    res.redirect('/api/vista');
+  }
     res.render('loginForm');
 });
 
@@ -36,7 +27,7 @@ router.post('/signup', (req, res, next) => {
       }
       if (!user) return res.status(401).json({ data: info });
   
-      res.render('main', { username : req.body.username})
+      res.redirect('/api')
     })(req, res, next);
 });
 
@@ -45,8 +36,86 @@ router.get('/signUpPage', (req: Request, res: Response) => {
 })
 
 router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
-    res.render('main', {nombre : req.body.username});
+    res.redirect('/api/vista');
 });
 
+
+router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
+  const result = await productsAtlas.get();
+  const user : any = req.user;
+  const userObject = {
+    username : user.username,
+    email : user.email,
+  }
+  res.render('main', {
+    user : userObject,
+    products : result
+  })
+})
+
+router.post('/logout', (req: Request, res: Response) => {
+  req.session.destroy((err: any) => {
+      res.redirect('/api');
+  });
+})
+
+router.get('/userCart', async (req: Request, res : Response) => {
+  const user : any = req.user;
+  const userId = user._id;
+  const cart = await CartAPI.getCart(userId);
+  let array : Array<any> = [];
+  await cart.products.forEach( async (element: { _id: string | undefined; amount:number }) => {
+    const result = await productsAtlas.get(element._id);
+    const order = {
+      result,
+      amount : element.amount
+    }
+    array.push(order);
+  });
+  
+  res.render('cartView', {
+    products : array
+  })
+})
+
+router.get('/submit', async (req : Request, res : Response ) => {
+  const user : any = req.user;
+  const userId = user._id;
+  const cart = await CartAPI.getCart(userId);
+
+  let array : Array<any> = await Promise.all(cart.products.map(async (element : any) => {
+    const result = await productsAtlas.get(element._id);
+    logger.info(result);
+    const order = {
+      result,
+      amount : element.amount
+    }
+    return order;
+  }));
+
+  const  orderComplete = {
+    username : user.username,
+    email : user.email,
+    order : array 
+  };
+
+  let stringOrder = '';
+  for(let index = 0; index < array.length; index++) {
+    stringOrder = stringOrder + `Product: ${array[index].result.name}<br>
+    Price: ${array[index].result.price}<br>
+    Amount : ${array[index].amount}<br>
+    ==============================<br>
+    Username : ${user.username}<br>
+    Email : ${user.email}`;
+  }
+  console.log('my string order', stringOrder)
+  
+  console.log(array)
+  await EmailService.sendEmail(config.GMAIL_EMAIL, `Nuevo pedido de ${orderComplete.username}`, stringOrder);
+  await CartAPI.deleteAllProducts(cart._id);
+
+  res.redirect('/api/vista');
+
+});
 
 export default router;

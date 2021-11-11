@@ -14,6 +14,6 @@ router.post('/delete', CartController.deleteProduct);
 //le ponen en la orden info del usuario
 // Vacian carrito
 //Mandan mensajitos
-router.post('submit');
+
 
 export default router; 

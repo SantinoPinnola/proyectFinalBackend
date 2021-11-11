@@ -26,6 +26,18 @@ const usersSchema = new mongoose.Schema<UserI>({
     type: String,
     required: true,
   },
+  address : {
+    type : String,
+    required : true,
+  }, 
+  age : { 
+    type : Number,
+    required : true,
+  },
+  phonenumber : {
+    type : Number,
+    required : true,
+  }
 });
 
 usersSchema.pre('save', async function (next) {
@@ -50,7 +62,7 @@ export class UsersAtlas implements UserBaseClass {
         const document = await this.users.findById(id);
         if (document) output.push(document);
       } else {
-        output = await this.users.find();
+        output = await this.users.find().lean();
       }
 
       return output;

@@ -23,8 +23,8 @@ export class CartsAtlas implements CartBaseClass {
     this.carts = mongoose.model<CartI>('cart', cartSchema);
   }
 
-  async get(userId: string): Promise<CartI> {
-    const result = await this.carts.findOne({ userId });
+  async get(userId: string): Promise<any>{
+    const result = await this.carts.findOne({ userId }).lean();
     logger.warn('el result es:', result);
     if (!result) throw new Error('id not found');
 
@@ -71,7 +71,7 @@ export class CartsAtlas implements CartBaseClass {
   async deleteProduct(cartId: string, product: ProductCart): Promise<CartI> {
     const cart = await this.carts.findById(cartId);
     if (!cart) throw new Error('Cart not found');
-
+  
     const index = cart.products.findIndex(
       (aProduct) => aProduct._id == product._id
     );
@@ -84,5 +84,13 @@ export class CartsAtlas implements CartBaseClass {
 
     await cart.save();
     return cart;
+  }
+
+
+  async deleteAllProducts(cartId : string) {
+    const cart = await this.carts.findById(cartId);
+    if (!cart) throw new Error('Cart not found');
+    cart.products.splice(0, cart.products.length);
+    await cart.save();
   }
 }

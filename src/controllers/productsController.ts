@@ -61,9 +61,7 @@ class Producto {
       });
     }
 
-    res.json({
-      data: await productsAPI.getProducts(),
-    });
+    res.render('main',{ products : await productsAPI.getProducts()} );
   }
 
   async addProducts(req: Request, res: Response) {

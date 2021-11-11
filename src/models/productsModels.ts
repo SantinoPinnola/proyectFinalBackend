@@ -17,28 +17,25 @@ const ProductsSchema = new mongoose.Schema({
     timestamp : {type : Date, default : Date.now()}
 });
 
-export class ProductosAtlas implements ProductBaseClass {
+class ProductosAtlas implements ProductBaseClass {
 
   private productos;
 
-  constructor(local: boolean = false) {
+  constructor() {
     this.productos = mongoose.model<ProductI>('producto', ProductsSchema);
   }
 
-  async get(id?: string): Promise<ProductI[]> {
-    let output: ProductI[] = [];
+  async get(id?: string) {
     try {
       if (id) {
-        const document = await this.productos.findById(id);
-        if (document) output.push(document);
+        const document = await this.productos.findById(id).lean();
+        if (document) return document;
       } else {
-        output = await this.productos.find();
+        return this.productos.find({}).lean();
       }
-
-      return output;
-    } catch (err) {
-      return output;
-    }
+    }catch (error) {
+        let msg = (error as Error).message;
+      }
   }
 
   async add(data: newProductI): Promise<ProductI> {
@@ -70,3 +67,5 @@ export class ProductosAtlas implements ProductBaseClass {
     return this.productos.find(query);
   }
 }
+
+export const productsAtlas = new ProductosAtlas();

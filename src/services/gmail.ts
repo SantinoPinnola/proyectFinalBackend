@@ -26,7 +26,7 @@ class Email {
     this.transporter.verify().then(() => console.log('READY To Send Email'));
   }
 
-  async sendEmail(dest: string, subject: string, content: string, profilePic : string) {
+  async sendEmail(dest: string, subject: string, content: string, profilePic? : string) {
     const mailOptions = {
       from: this.owner,
       to: dest,

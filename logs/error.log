@@ -1,0 +1,374 @@
+Nov-11-2021 00:24:17 | [31merror[39m: [31m"address" is required[39m
+Nov-11-2021 00:25:36 | [31merror[39m: [31m"address" is required[39m
+Nov-11-2021 00:26:04 | [31merror[39m: [31m"address" is required[39m
+Nov-11-2021 00:26:42 | [31merror[39m: [31m"address" is required[39m
+Nov-11-2021 00:35:55 | [31merror[39m: [31m"username" length must be less than or equal to 10 characters long[39m
+Nov-11-2021 00:40:31 | [31merror[39m: [31m"firstName" length must be at least 4 characters long[39m
+Nov-11-2021 01:23:22 | [31merror[39m: [31m"username" length must be less than or equal to 10 characters long[39m
+Nov-11-2021 04:52:31 | [31merror[39m: [31m[31merror[31m[39m
+Nov-11-2021 04:59:07 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 04:59:38 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 05:05:36 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 05:13:57 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc20a180a8283c4fb7470',[39m
+[31m  name: 'Celular Xiaomi',[39m
+[31m  price: 185,[39m
+[31m  amount: 1[39m
+[31m}[39m
+Nov-11-2021 05:28:17 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc220180a8283c4fb7473',[39m
+[31m  name: 'Celular Huawei',[39m
+[31m  price: 390,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 14:02:56 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 14:07:46 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 43[39m
+[31m}[39m
+Nov-11-2021 14:57:47 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 14:57:49 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 14:59:32 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 14:59:34 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 15:01:53 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 15:04:27 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 43[39m
+[31m}[39m
+Nov-11-2021 15:07:38 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 15:11:23 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 25[39m
+[31m}[39m
+Nov-11-2021 15:17:37 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 43[39m
+[31m}[39m
+Nov-11-2021 15:17:38 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 23[39m
+[31m}[39m
+Nov-11-2021 15:21:02 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 15:46:49 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 15:50:20 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 15:53:04 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 15:54:15 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 15:59:10 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:01:04 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:03:08 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:04:39 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:09:04 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:11:52 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:13:18 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 16:13:19 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 53[39m
+[31m}[39m
+Nov-11-2021 16:13:32 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 16:16:36 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 16:25:56 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:28:17 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 16:28:23 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 0[39m
+[31m}[39m
+Nov-11-2021 16:31:43 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 50[39m
+[31m}[39m
+Nov-11-2021 16:38:01 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 16:39:05 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:44:00 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 16:58:42 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 16:58:44 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 6[39m
+[31m}[39m
+Nov-11-2021 16:58:46 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc20a180a8283c4fb7470',[39m
+[31m  name: 'Celular Xiaomi',[39m
+[31m  price: 185,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:02:35 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:02:40 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:02:41 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc20a180a8283c4fb7470',[39m
+[31m  name: 'Celular Xiaomi',[39m
+[31m  price: 185,[39m
+[31m  amount: 5[39m
+[31m}[39m
+Nov-11-2021 17:18:58 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:18:59 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 17:21:27 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 1[39m
+[31m}[39m
+Nov-11-2021 17:21:29 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 1[39m
+[31m}[39m
+Nov-11-2021 17:22:56 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 17:22:58 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 17:26:06 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 17:26:08 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:28:12 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 43[39m
+[31m}[39m
+Nov-11-2021 17:28:14 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 17:29:18 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 45[39m
+[31m}[39m
+Nov-11-2021 17:29:20 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:32:10 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:32:11 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 17:44:07 | [31merror[39m: [31m{[39m
+[31m  _id: '618c7ed7f836c31ab66cc6ca',[39m
+[31m  name: 'Celular Iphone',[39m
+[31m  price: 350,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 17:44:08 | [31merror[39m: [31m{[39m
+[31m  _id: '618cc1f0180a8283c4fb746d',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 230,[39m
+[31m  amount: 3[39m
+[31m}[39m
