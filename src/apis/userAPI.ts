@@ -1,5 +1,6 @@
 import { NewUserI, UserI, UserQuery } from '../interfaces/usersInterfaces';
 import { UsersAtlas } from '../models/userModels';
+import { CartAPI} from './cartAPI';
 
 
 class User {
@@ -28,7 +29,7 @@ class User {
 
   async deleteUser(id: string) {
     await this.users.delete(id);
-    await CartAPI.deleteCart(id);
+    //await CartAPI.deleteCart(id);
   }
 
   async query(username?: string, email?: string): Promise<UserI> {

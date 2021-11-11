@@ -6,6 +6,8 @@ export const userJoiSchema = Joi.object({
   email: Joi.string().email().required(),
   username: Joi.string().min(5).max(10).required(),
   password: Joi.string().required(),
+  age : Joi.number().required(),
+  address : Joi.string().required()
 });
 
 export interface NewUserI {
@@ -14,6 +16,8 @@ export interface NewUserI {
   email: string;
   username: string;
   password: string;
+  age : number;
+  address : string;
 }
 
 export interface UserI {
@@ -23,6 +27,8 @@ export interface UserI {
   email: string;
   username: string;
   password: string;
+  age : number;
+  address : string;
 }
 
 export interface UserQuery {

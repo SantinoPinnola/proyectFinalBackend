@@ -67,7 +67,9 @@ export class UsersAtlas implements UserBaseClass {
   }
 
   async update(id: string, data: NewUserI): Promise<UserI> {
-    return this.users.findByIdAndUpdate(id, data);
+    const userUpdated = this.users.findByIdAndUpdate(id,data);
+
+    return userUpdated as unknown as Promise<UserI>;
   }
 
   async delete(id: string) {

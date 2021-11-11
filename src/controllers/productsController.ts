@@ -1,11 +1,8 @@
-import { productos } from "../models/productsModels";
-import { Request, Response, NextFunction} from 'express';
+import { Request, Response, NextFunction } from 'express';
+import { productsAPI } from '../apis/productsAPI';
+import { ProductQuery } from '../interfaces/productsInterfaces';
 
-
-const tableName = 'productos';
-
-class ProductController {
-
+class Producto {
     checkAddProduct (err: Error, req: Request, res: Response, next: NextFunction) {
 
         const { name, price, description, thumbnail, stock } = req.body;
@@ -25,46 +22,77 @@ class ProductController {
         next();
     }
 
-    async checkProductExist (req: Request, res: Response, next: NextFunction) {
-        const {id} = req.params;
-        productos.findById(id, (err: Error, product: any) => {
-            if (err) {
-                return res.status(404).json({
-                    msg: 'No se encuentra este producto'
-                });
-            } else {
-                next();
-            }
-        })
+  async checkProductExists(req: Request, res: Response, next: NextFunction) {
+    const id = req.params.id;
+    const producto = await productsAPI.getProducts(id);
+
+    if (!producto) {
+      return res.status(404).json({
+        msg: 'producto not found',
+      });
     }
+    next();
+  }
 
-    async getProducts() {
-        const total = await productos.find().lean();
-        return total;
-    };
-        
-
-    async addProduct(req: Request, res: Response) {
-        console.log(req.body);
-        await productos.create(req.body);
-        res.redirect('/api/products');
-    }
-
-    async updateProduct(req: Request, res: Response) {
-        const {id} = req.params;
-        await productos.findByIdAndUpdate(id, req.body);
-        res.json({
-            msg : 'Producto actualizado con exito'
-        })
-    }
-
-    async delete(req: Request, res: Response) {
-        const {id} = req.params;
-        await productos.findByIdAndDelete(id);
-        res.json({
-            msg : 'Producto borrado con exito'
+  async getProducts(req: Request, res: Response) {
+    const { id } = req.params;
+    const { nombre, precio } = req.query;
+    if (id) {
+      const result = await productsAPI.getProducts(id);
+      if (!result.length)
+        return res.status(404).json({
+          data: 'objeto no encontrado',
         });
+
+      return res.json({
+        data: result,
+      });
     }
+
+    const query: ProductQuery = {};
+
+    if (nombre) query.nombre = nombre.toString();
+
+    if (precio) query.precio = Number(precio);
+
+    if (Object.keys(query).length) {
+      return res.json({
+        data: await productsAPI.query(query),
+      });
+    }
+
+    res.json({
+      data: await productsAPI.getProducts(),
+    });
+  }
+
+  async addProducts(req: Request, res: Response) {
+    const newItem = await productsAPI.addProduct(req.body);
+
+    res.json({
+      msg: 'producto agregado con exito',
+      data: newItem,
+    });
+  }
+
+  async updateProducts(req: Request, res: Response) {
+    const id = req.params.id;
+
+    const updatedItem = await productsAPI.updateProduct(id, req.body);
+
+    res.json({
+      msg: 'actualizando producto',
+      data: updatedItem,
+    });
+  }
+
+  async deleteProducts(req: Request, res: Response) {
+    const id = req.params.id;
+    await productsAPI.deleteProduct(id);
+    res.json({
+      msg: 'producto borrado',
+    });
+  }
 }
 
-export const productController = new ProductController();
+export const productsController = new Producto();
