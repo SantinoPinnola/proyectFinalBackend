@@ -10354,3 +10354,59 @@ Nov-11-2021 22:26:46 | [33mwarn[39m: [33m[[39m
 [33m    __v: 0[39m
 [33m  }[39m
 [33m][39m
+Nov-11-2021 22:27:44 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da215465dd7fa9559b43c"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$IitYtIlXisGz6oNxdb4sO.PbizWVRyySQZ4KGk5HXs9WnD0v68RN2',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 14,[39m
+[33m    phonenumber: 543424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-11-2021 22:27:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da215465dd7fa9559b43c"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$IitYtIlXisGz6oNxdb4sO.PbizWVRyySQZ4KGk5HXs9WnD0v68RN2',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 14,[39m
+[33m    phonenumber: 543424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-11-2021 22:27:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da215465dd7fa9559b43c"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$IitYtIlXisGz6oNxdb4sO.PbizWVRyySQZ4KGk5HXs9WnD0v68RN2',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 14,[39m
+[33m    phonenumber: 543424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Nov-11-2021 22:27:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da215465dd7fa9559b43c"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$IitYtIlXisGz6oNxdb4sO.PbizWVRyySQZ4KGk5HXs9WnD0v68RN2',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 14,[39m
+[33m    phonenumber: 543424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
