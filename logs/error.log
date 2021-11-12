@@ -372,3 +372,53 @@ Nov-11-2021 17:44:08 | [31merror[39m: [31m{[39m
 [31m  price: 230,[39m
 [31m  amount: 3[39m
 [31m}[39m
+Nov-11-2021 20:38:00 | [31merror[39m: [31m{[39m
+[31m  _id: '618da94bfb2f9b4b20b9dfff',[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 20:38:01 | [31merror[39m: [31m{[39m
+[31m  _id: '618da951fb2f9b4b20b9e002',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 85,[39m
+[31m  amount: 2[39m
+[31m}[39m
+Nov-11-2021 20:43:10 | [31merror[39m: [31m{[39m
+[31m  _id: '618da94bfb2f9b4b20b9dfff',[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 20:43:11 | [31merror[39m: [31m{[39m
+[31m  _id: '618da951fb2f9b4b20b9e002',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 85,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 20:45:01 | [31merror[39m: [31m{[39m
+[31m  _id: '618da94bfb2f9b4b20b9dfff',[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 20:45:02 | [31merror[39m: [31m{[39m
+[31m  _id: '618da951fb2f9b4b20b9e002',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 85,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 20:52:27 | [31merror[39m: [31m{[39m
+[31m  _id: '618da94bfb2f9b4b20b9dfff',[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  amount: 3[39m
+[31m}[39m
+Nov-11-2021 20:52:28 | [31merror[39m: [31m{[39m
+[31m  _id: '618da951fb2f9b4b20b9e002',[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 85,[39m
+[31m  amount: 4[39m
+[31m}[39m
+Nov-11-2021 21:19:53 | [31merror[39m: [31m"file" is not allowed[39m
+Nov-11-2021 21:21:17 | [31merror[39m: [31m"file" is not allowed[39m

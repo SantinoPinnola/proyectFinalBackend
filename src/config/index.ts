@@ -15,5 +15,6 @@ export default {
     TWILIO_CELLPHONE : process.env.TWILIO_CELLPHONE || 'twilioCellphone',
     TWILIO_TOKEN : process.env.TWILIO_TOKEN || 'twilioToken',
     TWILIO_ACCOUNT_ID : process.env.TWILIO_ACCOUNT_ID || 'twilioAccountID',
-    TEST_PHONENUMBER : process.env.TEST_PHONENUMBER || 'testPhonenumber'
+    TEST_PHONENUMBER : process.env.TEST_PHONENUMBER || 'testPhonenumber',
+    TWILIO_WHATSAPP_NUMBER : process.env.TWILIO_WHATSAPP_NUMBER || 'twilioWspNumber'
 };

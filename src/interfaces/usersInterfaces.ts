@@ -9,6 +9,7 @@ export const userJoiSchema = Joi.object({
   age : Joi.number().required(),
   address : Joi.string().required(),
   phonenumber : Joi.number().required(),
+  file : Joi.string(),
 });
 
 export interface NewUserI {

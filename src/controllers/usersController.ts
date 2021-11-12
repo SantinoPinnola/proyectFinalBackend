@@ -29,10 +29,14 @@ class User {
   }
 
   async updateUser(req: Request, res: Response) {
+    const { id, data } = req.body
+    const updatedUser = await UserAPI.updateUser(id,data);
     res.json({ msg: 'UPDATE USER' });
   }
 
   async deleteUser(req: Request, res: Response) {
+    const { id } = req.body
+    await UserAPI.deleteUser(id);
     res.json({ msg: 'DELETE USER' });
   }
 }

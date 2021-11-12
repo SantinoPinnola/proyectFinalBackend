@@ -22,7 +22,7 @@ class User {
     return newUser;
   }
 
-  async updateUser(id: string, userData: NewUserI) {
+  async updateUser(id: string, userData : any) {
     const updatedUser = await this.users.update(id, userData);
     return updatedUser;
   }

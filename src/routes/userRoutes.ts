@@ -8,7 +8,9 @@ import { CartAPI } from '../apis/cartAPI';
 import { ProductCart } from '../interfaces/cartInterfaces';
 import {EmailService} from '../services/gmail';
 import config from '../config';
-
+import { WhatsappService } from '../services/twilioWhatsapp';
+import { SmsService } from '../services/twilio';
+import { UserAPI } from '../apis/userAPI';
 const router = Router();
 
 
@@ -78,6 +80,29 @@ router.get('/userCart', async (req: Request, res : Response) => {
   })
 })
 
+
+router.get('/datos', (req : Request, res : Response) => {
+  const user : any = req.user;
+  const userObject = {
+    username : user.username,
+    email : user.email,
+    firstName : user.firstName,
+    lastName : user.lastName,
+    address : user.address,
+    phonenumber : user.phonenumber,
+    age : user.age,
+  }
+  res.render('datos', { user : userObject} );
+})
+
+router.post('/update', async (req : Request, res: Response) => {
+  const {data} = req.body
+  const user : any = req.user
+  await UserAPI.updateUser(user._id, data);
+  res.redirect('/api/vista');
+})
+
+
 router.get('/submit', async (req : Request, res : Response ) => {
   const user : any = req.user;
   const userId = user._id;
@@ -108,12 +133,12 @@ router.get('/submit', async (req : Request, res : Response ) => {
     Username : ${user.username}<br>
     Email : ${user.email}`;
   }
-  console.log('my string order', stringOrder)
   
-  console.log(array)
+  const response = await WhatsappService.sendMessage(`+${user.phonenumber}`,stringOrder);
+  logger.info(response);
   await EmailService.sendEmail(config.GMAIL_EMAIL, `Nuevo pedido de ${orderComplete.username}`, stringOrder);
   await CartAPI.deleteAllProducts(cart._id);
-
+  await SmsService.sendMessage(`+${user.phonenumber}`,'Tu pedido fue registrado y esta siendo preparado.');
   res.redirect('/api/vista');
 
 });

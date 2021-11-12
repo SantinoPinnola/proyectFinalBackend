@@ -8,6 +8,8 @@ import { Request, Response } from 'express';
 import cookieParser from 'cookie-parser';
 import MongoStore from 'connect-mongo';
 import passport from 'passport';
+//import multer from 'multer';
+
 
 
 const StoreOptions = {
@@ -30,6 +32,17 @@ const app = express ();
 const publicFolderPath = path.resolve(__dirname, '../../public');
 app.use(express.static(publicFolderPath));
 
+
+//const upload = multer({ dest: '../public/images/' });
+
+//app.post('/single', upload.single('imagen'), (req : Request, res : Response) => {
+ // if(req.file) {
+ //   console.log(req.file);
+ //   res.send(req.file);
+ // } else {
+  //  res.send(400)
+//  }
+//});
 
 const layoutsFolderPath = path.resolve(__dirname, '../../views/layouts')
 const defaultLayerPth = path.resolve(__dirname, '../../views/layouts/index.hbs');

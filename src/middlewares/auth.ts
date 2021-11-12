@@ -8,6 +8,8 @@ import { Request, Response, NextFunction } from 'express';
 import { UserAPI } from '../apis/userAPI';
 import { userJoiSchema } from '../interfaces/usersInterfaces';
 import { logger } from '../middlewares/logger'
+import { EmailService } from '../services/gmail';
+import config from '../config';
 
 const admin = true;
 
@@ -72,6 +74,7 @@ const signUpFunc: VerifyFunctionWithRequest = async (
       });
     } else {
       const newUser = await UserAPI.addUser(req.body);
+      await EmailService.sendEmail(config.GMAIL_EMAIL,'Nuevo Registro', req.body)
       return done(null, newUser);
     }
   } catch (err) {
