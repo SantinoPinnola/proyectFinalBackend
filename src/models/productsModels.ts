@@ -5,6 +5,7 @@ import {
   ProductBaseClass,
   ProductQuery,
 } from '../interfaces/productsInterfaces';
+import { composeWithMongoose } from 'graphql-compose-mongoose';
 
 const productsCollection = 'products';
 
@@ -20,9 +21,11 @@ const ProductsSchema = new mongoose.Schema({
 class ProductosAtlas implements ProductBaseClass {
 
   private productos;
+  public productsGraphQL : any;
 
   constructor() {
     this.productos = mongoose.model<ProductI>('producto', ProductsSchema);
+    this.productsGraphQL = composeWithMongoose(this.productos);
   }
 
   async get(id?: string) {
@@ -68,4 +71,4 @@ class ProductosAtlas implements ProductBaseClass {
   }
 }
 
-export const productsAtlas = new ProductosAtlas();
+export const productsLocal = new ProductosAtlas();

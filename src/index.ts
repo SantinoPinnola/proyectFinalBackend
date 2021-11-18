@@ -1,12 +1,13 @@
 import myServer from './services/server';
-import { dbConnection } from './db/mongoDB';
+import { MongoLocal } from './db/mongoDB';
 import { initWsServer } from './services/sockets';
 import cluster from 'cluster'
 import os from 'os';
 import { portArgument, clusterArg } from './utils/getArgs';
 import { logger } from './middlewares/logger';
 
-dbConnection();
+const db2 = MongoLocal.getConnection();
+console.log('DB LOCAL UP');
 initWsServer(myServer);
 
 const port = portArgument || 8080;

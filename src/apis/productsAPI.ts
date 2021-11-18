@@ -1,12 +1,12 @@
 import { newProductI, ProductI, ProductQuery } from '../interfaces/productsInterfaces';
-import {productsAtlas} from '../models/productsModels'
+import {productsLocal} from '../models/productsModels'
 
 
 class prodAPI {
   private productos;
 
   constructor() {
-    this.productos = productsAtlas;
+    this.productos = productsLocal;
   }
 
   async getProducts(id: string | undefined = undefined) : Promise<any> {

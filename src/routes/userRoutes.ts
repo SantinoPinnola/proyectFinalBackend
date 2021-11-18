@@ -2,7 +2,7 @@ import {Router} from 'express';
 import { Request, Response } from 'express';
 import passport from '../middlewares/auth';
 import { isLoggedIn } from '../middlewares/auth';
-import {productsAtlas} from '../models/productsModels'
+import {productsLocal} from '../models/productsModels'
 import {logger} from '../middlewares/logger';
 import { CartAPI } from '../apis/cartAPI';
 import { ProductCart } from '../interfaces/cartInterfaces';
@@ -43,7 +43,7 @@ router.post('/login', passport.authenticate('login'), (req : Request, res : Resp
 
 
 router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
-  const result = await productsAtlas.get();
+  const result = await productsLocal.get();
   const user : any = req.user;
   const userObject = {
     username : user.username,
@@ -67,7 +67,7 @@ router.get('/userCart', async (req: Request, res : Response) => {
   const cart = await CartAPI.getCart(userId);
   let array : Array<any> = [];
   await cart.products.forEach( async (element: { _id: string | undefined; amount:number }) => {
-    const result = await productsAtlas.get(element._id);
+    const result = await productsLocal.get(element._id);
     const order = {
       result,
       amount : element.amount
@@ -109,7 +109,7 @@ router.get('/submit', async (req : Request, res : Response ) => {
   const cart = await CartAPI.getCart(userId);
 
   let array : Array<any> = await Promise.all(cart.products.map(async (element : any) => {
-    const result = await productsAtlas.get(element._id);
+    const result = await productsLocal.get(element._id);
     logger.info(result);
     const order = {
       result,
