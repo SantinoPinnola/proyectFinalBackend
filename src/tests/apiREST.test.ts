@@ -30,7 +30,7 @@ describe('Ejemplos de tests', () => {
     });
     
 
-    test('deberia crear un usuario correctamente', async () => {
+    test('deberia crear un producto correctamente', async () => {
 
         jest.spyOn(productsLocal.productos.prototype, 'save').mockResolvedValueOnce('data');
         const body = { 
