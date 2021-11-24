@@ -20,7 +20,7 @@ const ProductsSchema = new mongoose.Schema({
 
 class ProductosAtlas implements ProductBaseClass {
 
-  private productos;
+  public productos;
   public productsGraphQL : any;
 
   constructor() {

@@ -3,8 +3,6 @@ import mongoose, { Connection } from 'mongoose';
 
 mongoose.Promise = global.Promise;
 
-
-
 export class MongoDB {
   private instance: number;
   private uri: string;
@@ -17,8 +15,7 @@ export class MongoDB {
   }
 
   getConnection() {
+    if (!this.connection) this.connection = mongoose.createConnection(this.uri);
     return this.connection;
   }
 }
-
-export const MongoLocal = new MongoDB();

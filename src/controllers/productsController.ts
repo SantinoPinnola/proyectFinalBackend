@@ -47,7 +47,7 @@ class Producto {
       return res.json({
         data: result,
       });
-    }
+    } 
 
     const query: ProductQuery = {};
 
@@ -59,9 +59,13 @@ class Producto {
       return res.json({
         data: await productsAPI.query(query),
       });
-    }
+    } 
 
-    res.render('main',{ products : await productsAPI.getProducts()} );
+    res.json({
+      data : await productsAPI.getProducts(),
+    });
+
+    //res.render('main',{ products : await productsAPI.getProducts()} );
   }
 
   async addProducts(req: Request, res: Response) {

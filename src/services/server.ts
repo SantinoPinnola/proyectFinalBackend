@@ -10,6 +10,7 @@ import MongoStore from 'connect-mongo';
 import passport from 'passport';
 import { graphqlHTTP } from 'express-graphql';
 import { graphQLMainSchema } from './graphql';
+import {axiosDelete, axiosGet, axiosGetID, axiosPost, axiosUpdate}  from '../services/axios';
 //import multer from 'multer';
 
 
@@ -81,6 +82,7 @@ app.use(passport.session());
 
 
 app.use('/api', apiRouter)
+
 
 
 const myServer = new http.Server(app);
