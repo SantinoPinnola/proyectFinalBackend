@@ -3,6 +3,7 @@ export interface newProductI {
     price?: number;
     description : string;
     thumbnail : string;
+    stock : number;
 }
   
   export interface ProductI {

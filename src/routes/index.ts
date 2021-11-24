@@ -7,7 +7,7 @@ import { isLoggedIn } from '../middlewares/auth';
 
 const router = Router();
 
-router.use('/products',isLoggedIn, productsRouter);
+router.use('/products', productsRouter);
 router.use('/cart', cartRouter);
 router.use('/', UserRouter);
 
