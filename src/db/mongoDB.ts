@@ -1,11 +1,21 @@
-import mongoose from 'mongoose';
+import config from '../config';
+import mongoose, { Connection } from 'mongoose';
 
-export async function dbConnection() {
-    try {
-        const URLhost = "mongodb://localhost:27017/coderhouse";
-        let connection = await mongoose.connect(URLhost);
-        console.log('Base de datos conectada');
-    }   catch (error) {
-		console.log(error);
-    }
+mongoose.Promise = global.Promise;
+
+export class MongoDB {
+  private instance: number;
+  private uri: string;
+  private connection: Connection;
+
+  constructor() {
+    this.uri =  `mongodb://localhost:27017/${config.MONGO_LOCAL_DBNAME}`
+    this.connection = mongoose.createConnection(this.uri);
+    this.instance = 0;
+  }
+
+  getConnection() {
+    if (!this.connection) this.connection = mongoose.createConnection(this.uri);
+    return this.connection;
+  }
 }

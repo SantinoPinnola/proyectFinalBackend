@@ -1,12 +1,15 @@
 import myServer from './services/server';
-import { dbConnection } from './db/mongoDB';
+import { MongoDB } from './db/mongoDB';
 import { initWsServer } from './services/sockets';
 import cluster from 'cluster'
 import os from 'os';
 import { portArgument, clusterArg } from './utils/getArgs';
 import { logger } from './middlewares/logger';
+import {axiosDelete, axiosGet, axiosGetID, axiosPost, axiosUpdate}  from './services/axios';
+import axios from 'axios';
 
-dbConnection();
+const db = new MongoDB();
+console.log('DB LOCAL UP');
 initWsServer(myServer);
 
 const port = portArgument || 8080;
@@ -28,3 +31,4 @@ if (cluster.isMaster && clusterArgument) {
     logger.info(`Servidor express escuchando en el puerto ${port} - PID WORKER ${process.pid}`)
   );
 }
+
