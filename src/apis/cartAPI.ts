@@ -1,6 +1,7 @@
-import { CartsAtlas } from '../models/cartModels';
+import { CartsMongo } from '../persistence/cart/cartMongo';
 import { CartI } from '../interfaces/cartInterfaces';
 import { UserAPI } from './userAPI';
+import { ProductI } from '../interfaces/productsInterfaces';
 import { productsAPI } from './productsAPI'
 import { logger } from '../middlewares/logger';
 
@@ -8,7 +9,7 @@ class Cart {
   private carts;
 
   constructor() {
-    this.carts = new CartsAtlas()
+    this.carts = new CartsMongo();
   }
 
   async getCart(userId: string): Promise<any> {
@@ -30,7 +31,7 @@ class Cart {
     productId: string,
     amount: number
   ): Promise<CartI> {
-    const product = await productsAPI.getProducts(productId);
+    const product = await productsAPI.getProducts(productId) as ProductI;
     const addProduct = {
       _id: productId,
       name: product.name,
@@ -43,7 +44,7 @@ class Cart {
   }
 
   async deleteProduct(cartId: string, productId: string, amount: number) {
-    const product = await productsAPI.getProducts(productId);
+    const product = await productsAPI.getProducts(productId) as ProductI;
     const deleteProduct = {
       _id: productId,
       name: product.name,

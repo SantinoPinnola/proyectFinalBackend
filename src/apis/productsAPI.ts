@@ -1,15 +1,18 @@
 import { newProductI, ProductI, ProductQuery } from '../interfaces/productsInterfaces';
-import {productsAtlas} from '../models/productsModels'
+import { FactoryDAO } from '../models/factory/productsFactory';
+import { TipoPersistencia } from '../models/factory/productsFactory';
 
+
+export const tipo = TipoPersistencia.LocalMongo;
 
 class prodAPI {
   private productos;
 
   constructor() {
-    this.productos = productsAtlas;
+    this.productos = FactoryDAO.get(tipo);
   }
 
-  async getProducts(id: string | undefined = undefined) : Promise<any> {
+  async getProducts(id: string | undefined = undefined): Promise<ProductI | ProductI[]>  {
     if (id) return this.productos.get(id);
 
     return this.productos.get();

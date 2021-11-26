@@ -16,5 +16,10 @@ export default {
     TWILIO_TOKEN : process.env.TWILIO_TOKEN || 'twilioToken',
     TWILIO_ACCOUNT_ID : process.env.TWILIO_ACCOUNT_ID || 'twilioAccountID',
     TEST_PHONENUMBER : process.env.TEST_PHONENUMBER || 'testPhonenumber',
-    TWILIO_WHATSAPP_NUMBER : process.env.TWILIO_WHATSAPP_NUMBER || 'twilioWspNumber'
+    TWILIO_WHATSAPP_NUMBER : process.env.TWILIO_WHATSAPP_NUMBER || 'twilioWspNumber',
+    MONGO_LOCAL_DBNAME : process.env.MONGO_LOCAL_DBNAME || 'mongoDBLocalName',
+    MONGO_ATLAS_USER: process.env.MONGO_ATLAS_USER || 'user',
+    MONGO_ATLAS_PASSWORD: process.env.MONGO_ATLAS_PASSWORD || 'pasw',
+    MONGO_ATLAS_CLUSTER: process.env.MONGO_ATLAS_CLUSTER || 'clusterUrl',
+    MONGO_ATLAS_DBNAME: process.env.MONGO_ATLAS_DBNAME || 'dbName'
 };

@@ -1,6 +1,6 @@
 export interface newProductI {
-    name?: string;
-    price?: number;
+    name: string;
+    price: number;
     description : string;
     thumbnail : string;
 }
@@ -11,13 +11,17 @@ export interface newProductI {
     price: number;
     description : string;
     thumbnail : string;
-    timestamp : Date;
+    timestamp : number;
 }
   
-  export interface ProductQuery {
-    nombre?: string;
-    precio?: number;
-   
+export interface ProductQuery {
+  name?: string;
+  _id? : string;
+  price? : number;
+  priceMin?: number;
+  priceMax?: number;
+  stockMin?: number;
+  stockMax?: number;
 }
   
   export interface ProductBaseClass {

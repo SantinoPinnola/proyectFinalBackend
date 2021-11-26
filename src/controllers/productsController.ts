@@ -39,7 +39,7 @@ class Producto {
     const { nombre, precio } = req.query;
     if (id) {
       const result = await productsAPI.getProducts(id);
-      if (!result.length)
+      if (result == undefined || result == null)
         return res.status(404).json({
           data: 'objeto no encontrado',
         });
@@ -51,9 +51,9 @@ class Producto {
 
     const query: ProductQuery = {};
 
-    if (nombre) query.nombre = nombre.toString();
+    if (nombre) query.name = nombre.toString();
 
-    if (precio) query.precio = Number(precio);
+    if (precio) query.price = Number(precio);
 
     if (Object.keys(query).length) {
       return res.json({
@@ -61,7 +61,10 @@ class Producto {
       });
     }
 
-    res.render('main',{ products : await productsAPI.getProducts()} );
+    res.json({
+      data : await productsAPI.getProducts()
+    })
+    //res.render('main',{ products : await productsAPI.getProducts()} );
   }
 
   async addProducts(req: Request, res: Response) {
