@@ -9,7 +9,7 @@ router.get('/', productsController.getProducts);
 
 router.get('/:id', productsController.checkProductExists, productsController.getProducts);
 
-router.post('/add', checkAdmin,  productsController.checkAddProduct, productsController.addProducts);
+router.post('/', checkAdmin,  productsController.checkAddProduct, productsController.addProducts);
 
 router.put('/update/:id', checkAdmin, productsController.checkProductExists, productsController.updateProducts);
 
