@@ -77,12 +77,12 @@ export class ProductosModel {
     type Conditions = (aProduct: ProductI) => boolean;
     const query: Conditions[] = [];
 
-    if (options.nombre)
-      query.push((aProduct: ProductI) => aProduct.name == options.nombre);
+    if (options.name)
+      query.push((aProduct: ProductI) => aProduct.name == options.name);
 
-    if (options.precio)
+    if (options.price)
       query.push(
-        (aProduct: ProductI) => aProduct.price == (options.precio as number),
+        (aProduct: ProductI) => aProduct.price == (options.price as number),
       );
 
     return (productos as ProductI[]).filter(aProduct =>
