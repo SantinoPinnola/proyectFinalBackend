@@ -2,11 +2,7 @@ import {Router} from 'express';
 import { Request, Response } from 'express';
 import passport from '../middlewares/auth';
 import { isLoggedIn } from '../middlewares/auth';
-<<<<<<< HEAD
 import { productsAPI } from '../apis/productsAPI';
-=======
-import {productsLocal} from '../models/productsModels'
->>>>>>> 8a3f22bb9002e0910f2dc6b42d167d61daae6c9c
 import {logger} from '../middlewares/logger';
 import { CartAPI } from '../apis/cartAPI';
 import { ProductCart } from '../interfaces/cartInterfaces';
@@ -47,11 +43,7 @@ router.post('/login', passport.authenticate('login'), (req : Request, res : Resp
 
 
 router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
-<<<<<<< HEAD
   const result = await productsAPI.getProducts();
-=======
-  const result = await productsLocal.get();
->>>>>>> 8a3f22bb9002e0910f2dc6b42d167d61daae6c9c
   const user : any = req.user;
   const userObject = {
     username : user.username,
@@ -75,11 +67,7 @@ router.get('/userCart', async (req: Request, res : Response) => {
   const cart = await CartAPI.getCart(userId);
   let array : Array<any> = [];
   await cart.products.forEach( async (element: { _id: string | undefined; amount:number }) => {
-<<<<<<< HEAD
     const result = await productsAPI.getProducts(element._id);
-=======
-    const result = await productsLocal.get(element._id);
->>>>>>> 8a3f22bb9002e0910f2dc6b42d167d61daae6c9c
     const order = {
       result,
       amount : element.amount
@@ -121,11 +109,7 @@ router.get('/submit', async (req : Request, res : Response ) => {
   const cart = await CartAPI.getCart(userId);
 
   let array : Array<any> = await Promise.all(cart.products.map(async (element : any) => {
-<<<<<<< HEAD
     const result = await productsAPI.getProducts(element._id);
-=======
-    const result = await productsLocal.get(element._id);
->>>>>>> 8a3f22bb9002e0910f2dc6b42d167d61daae6c9c
     logger.info(result);
     const order = {
       result,
