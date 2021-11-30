@@ -1,3 +1,3 @@
-export interface IWrite <T> {
-    create( item : T ) : Promise <T>;
+export interface IRead <T> {
+    find() : Promise <T[]>;
 }
