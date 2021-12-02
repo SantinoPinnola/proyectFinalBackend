@@ -5,8 +5,6 @@ import cluster from 'cluster'
 import os from 'os';
 import { portArgument, clusterArg } from './utils/getArgs';
 import { logger } from './middlewares/logger';
-import {axiosDelete, axiosGet, axiosGetID, axiosPost, axiosUpdate}  from './services/axios';
-import axios from 'axios';
 
 const db = new MongoDB();
 console.log('DB LOCAL UP');

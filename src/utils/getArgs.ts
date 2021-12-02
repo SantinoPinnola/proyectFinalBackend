@@ -10,5 +10,3 @@ if (args.h)
 export const allArguments = args;
 export const portArgument = args.port;
 export const clusterArg = args.cluster;
-export const fbClientIdArgument = args.fbClientId;
-export const fbClientSecretArgument = args.fbClientSecret;

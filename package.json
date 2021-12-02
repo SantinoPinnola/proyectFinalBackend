@@ -7,7 +7,9 @@
     "build": "npm install && node_modules//.bin//tsc",
     "start": "npm run build && node dist/index.js",
     "dev": "nodemon",
-    "test": "jest"
+    "test": "jest",
+    "prod": "set NODE_ENV=production&& node dist/index.js ",
+    "development": "set NODE_ENV=development&& node dist/index.js "
   },
   "keywords": [],
   "author": "",

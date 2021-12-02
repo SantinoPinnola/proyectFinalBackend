@@ -1,16 +1,23 @@
 import { newProductI, ProductI, ProductQuery } from '../interfaces/productsInterfaces';
 import { FactoryDAO } from '../models/factory/productsFactory';
 import { TipoPersistencia } from '../models/factory/productsFactory';
-import {ProductDTO, productDTO} from '../models/productsDTO';
+import {ProductDTO, productDTO} from '../models/productsModels/productsDTO';
+import config from '../config';
 
 
-export const tipo = TipoPersistencia.LocalMongo;
 
 class prodAPI {
+  private tipo;
   private productos;
 
   constructor() {
-    this.productos = FactoryDAO.get(tipo);
+    if (config.NODE_ENV == 'development') {
+      this.tipo = TipoPersistencia.Memoria;
+      this.productos = FactoryDAO.get(this.tipo);
+    } else if (config.NODE_ENV == 'production') {
+       this.tipo = TipoPersistencia.LocalMongo;
+       this.productos = FactoryDAO.get(this.tipo);
+    }
   }
 
   async getProductsDTO(id: string | undefined = undefined): Promise<ProductDTO | ProductDTO[]>  {

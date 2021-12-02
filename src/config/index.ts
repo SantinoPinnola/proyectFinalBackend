@@ -1,8 +1,11 @@
 import dotenv from 'dotenv';
-
-dotenv.config();
+import path from 'path'
+dotenv.config({
+    path : path.resolve(__dirname, process.env.NODE_ENV + '.env')
+});
 
 export default {
+    NODE_ENV : process.env.NODE_ENV || 'development',
     PORT: process.env.PORT || 8080,
     FACEBOOK_APP_ID: process.env.FACEBOOK_APP_ID || 'faceId',
     FACEBOOK_APP_SECRET: process.env.FACEBOOK_APP_SECRET || 'faceSecret',
