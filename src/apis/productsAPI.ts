@@ -1,7 +1,6 @@
 import { newProductI, ProductI, ProductQuery } from '../interfaces/productsInterfaces';
 import { FactoryDAO } from '../models/factory/productsFactory';
 import { TipoPersistencia } from '../models/factory/productsFactory';
-import {ProductDTO, productDTO} from '../models/productsModels/productsDTO';
 import config from '../config';
 
 
@@ -18,12 +17,6 @@ class prodAPI {
        this.tipo = TipoPersistencia.LocalMongo;
        this.productos = FactoryDAO.get(this.tipo);
     }
-  }
-
-  async getProductsDTO(id: string | undefined = undefined): Promise<ProductDTO | ProductDTO[]>  {
-    if (id) return productDTO( await this.productos.get(id));
-
-    return productDTO( await this.productos.get());
   }
 
   async getProducts(id: string | undefined = undefined): Promise<ProductI | ProductI[]>  {

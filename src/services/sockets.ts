@@ -1,6 +1,5 @@
 import { mensajes } from "../models/messagesModels";
 import { Server } from "socket.io";
-import { SmsService } from "./twilio";
 import config from "../config";
 
 
@@ -24,11 +23,6 @@ export const initWsServer = (app : any) => {
         });
 
         socket.on('new-message', async (data : any) => {
-            if (data.msg.includes('administrador')) {
-                SmsService.sendMessage(config.TEST_PHONENUMBER,`
-                Message sended by: ${data.email}/n
-                Content: ${data.msg}`);
-            }
             const newMsg = await mensajes.create(data);
             myWSServer.emit('messages', [newMsg]);
           });

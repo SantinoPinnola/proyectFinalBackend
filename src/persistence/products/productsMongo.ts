@@ -5,7 +5,7 @@ import {
   ProductQuery,
 } from '../../interfaces/productsInterfaces';
 import config from '../../config/index';
-import { productsSchema } from '../../models/productsModels/productsModels';
+import { productsSchema } from '../../models/productsModels';
 
 
 export class ProductsMongoDAO {

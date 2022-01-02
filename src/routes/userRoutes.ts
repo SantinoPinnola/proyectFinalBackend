@@ -8,8 +8,7 @@ import { CartAPI } from '../apis/cartAPI';
 import { ProductCart } from '../interfaces/cartInterfaces';
 import {EmailService} from '../services/gmail';
 import config from '../config';
-import { WhatsappService } from '../services/twilioWhatsapp';
-import { SmsService } from '../services/twilio';
+
 import { UserAPI } from '../apis/userAPI';
 const router = Router();
 
@@ -134,11 +133,9 @@ router.get('/submit', async (req : Request, res : Response ) => {
     Email : ${user.email}`;
   }
   
-  const response = await WhatsappService.sendMessage(`+${user.phonenumber}`,stringOrder);
-  logger.info(response);
+
   await EmailService.sendEmail(config.GMAIL_EMAIL, `Nuevo pedido de ${orderComplete.username}`, stringOrder);
   await CartAPI.deleteAllProducts(cart._id);
-  await SmsService.sendMessage(`+${user.phonenumber}`,'Tu pedido fue registrado y esta siendo preparado.');
   res.redirect('/api/vista');
 
 });

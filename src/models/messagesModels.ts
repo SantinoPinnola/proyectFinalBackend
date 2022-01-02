@@ -4,9 +4,19 @@ import {Messages} from '../interfaces/messagesInterfaces'
 const messagesCollection = 'messages';
 
 export const MessagesSchema = new mongoose.Schema<Messages>({
-    email : {type : String, require : true, max : 64},
-    msg : {type : String, require : true, min : 1},
-    timestamp : {type : Date, default : Date.now()},
+    email : {
+        type : String, 
+        require : true, 
+        max : 64
+    },
+    msg : {
+        type : String, 
+        require : true, min : 1
+    },
+    timestamp : {
+        type : Date, 
+        default : new Date
+    },
 })
 
-export const mensajes = mongoose.model(messagesCollection, MessagesSchema);
+export const mensajes : any = mongoose.model(messagesCollection, MessagesSchema);

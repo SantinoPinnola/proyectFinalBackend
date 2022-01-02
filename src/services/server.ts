@@ -8,9 +8,7 @@ import { Request, Response } from 'express';
 import cookieParser from 'cookie-parser';
 import MongoStore from 'connect-mongo';
 import passport from 'passport';
-import { graphqlHTTP } from 'express-graphql';
-import { graphQLMainSchema } from './graphql';
-import {axiosDelete, axiosGet, axiosGetID, axiosPost, axiosUpdate}  from '../services/axios';
+
 //import multer from 'multer';
 
 
@@ -61,13 +59,7 @@ app.engine('hbs', handlebars({
 }));
 
 
-app.use(
-  '/graphql',
-  graphqlHTTP({
-    schema: graphQLMainSchema,
-    graphiql: true,
-  })
-);
+
 
 app.use(express.json());
 app.use(express.urlencoded({

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import {
   ProductI,
-} from '../../interfaces/productsInterfaces';
+} from '../interfaces/productsInterfaces';
 
 
 export const productsSchema = new mongoose.Schema<ProductI>({
