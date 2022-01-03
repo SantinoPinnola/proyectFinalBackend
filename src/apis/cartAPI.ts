@@ -22,7 +22,7 @@ class Cart {
     if (!user.length)
       throw new Error('User does not exist. Error creating cart');
 
-    const newCart = await this.carts.createCart(userId);
+    const newCart = await this.carts.createCart(user);
     return newCart;
   }
 

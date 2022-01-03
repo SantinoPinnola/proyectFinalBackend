@@ -1,11 +1,9 @@
 import dotenv from 'dotenv';
 import path from 'path'
-dotenv.config({
-    path : path.resolve(__dirname, process.env.NODE_ENV + '.env')
-});
+dotenv.config();
 
 export default {
-    NODE_ENV : process.env.NODE_ENV || 'development',
+    NODE_ENV : process.env.NODE_ENV || 'production',
     PORT: process.env.PORT || 8080,
     GMAIL_EMAIL : process.env.GMAIL_EMAIL || 'gmail',
     GMAIL_PASSWORD : process.env.GMAIL_PASSWORD || 'gmailPassword',

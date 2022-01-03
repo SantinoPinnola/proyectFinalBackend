@@ -8,6 +8,9 @@ import { Request, Response } from 'express';
 import cookieParser from 'cookie-parser';
 import MongoStore from 'connect-mongo';
 import passport from 'passport';
+import { allowInsecurePrototypeAccess } from '@handlebars/allow-prototype-access';
+import expressHandlebars from 'express-handlebars';
+import Handlebars from 'handlebars';
 
 //import multer from 'multer';
 
@@ -55,10 +58,9 @@ app.engine('hbs', handlebars({
     extname: 'hbs',
     layoutsDir : layoutsFolderPath,
     partialsDir : partialsFolderPath ,
-    defaultLayout : defaultLayerPth
+    defaultLayout : defaultLayerPth,
+    handlebars: allowInsecurePrototypeAccess(Handlebars)
 }));
-
-
 
 
 app.use(express.json());

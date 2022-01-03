@@ -19,10 +19,15 @@ export class CartsMongo implements CartBaseClass {
       return result;
     }
   
-    async createCart(userId: string): Promise<CartI> {
+    async createCart(user : any): Promise<CartI> {
       const newCart = new this.carts({
-        userId,
+        userId : user.id,
         products: [],
+        street : user.street,
+        streetNumber : user.streetNumber,
+        codPostal : user.codPostal,
+        piso? : user.piso,
+        state : user.state,
       });
   
       await newCart.save();

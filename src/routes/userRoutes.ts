@@ -8,8 +8,8 @@ import { CartAPI } from '../apis/cartAPI';
 import { ProductCart } from '../interfaces/cartInterfaces';
 import {EmailService} from '../services/gmail';
 import config from '../config';
-
 import { UserAPI } from '../apis/userAPI';
+import { ProductI } from '../interfaces/productsInterfaces';
 const router = Router();
 
 
@@ -18,6 +18,10 @@ router.get('/', async (req, res) => {
     res.redirect('/api/vista');
   }
     res.render('loginForm');
+});
+
+router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
+  res.redirect('/api/vista');
 });
 
 router.post('/signup', (req, res, next) => {
@@ -36,13 +40,9 @@ router.get('/signUpPage', (req: Request, res: Response) => {
     res.render('signup');
 })
 
-router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
-    res.redirect('/api/vista');
-});
-
-
 router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
   const result = await productsAPI.getProducts();
+  logger.warn(result);
   const user : any = req.user;
   const userObject = {
     username : user.username,
@@ -54,6 +54,8 @@ router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
   })
 })
 
+
+
 router.post('/logout', (req: Request, res: Response) => {
   req.session.destroy((err: any) => {
       res.redirect('/api');
@@ -64,17 +66,21 @@ router.get('/userCart', async (req: Request, res : Response) => {
   const user : any = req.user;
   const userId = user._id;
   const cart = await CartAPI.getCart(userId);
-  let array : Array<any> = [];
-  await cart.products.forEach( async (element: { _id: string | undefined; amount:number }) => {
-    const result = await productsAPI.getProducts(element._id);
+
+  let array : Array<any> = await Promise.all(cart.products.map(async (element : any) => {
+    const result = await productsAPI.getProducts(element._id) as ProductI[];
+    logger.warn(result); 
     const order = {
-      result,
+      product : result[0].name,
+      price : result[0].price,
       amount : element.amount
     }
-    array.push(order);
-  });
-  
-  res.render('cartView', {
+    logger.warn(order);
+    return order;
+  }));
+
+  logger.info(array);
+   res.render('cartView', {
     products : array
   })
 })

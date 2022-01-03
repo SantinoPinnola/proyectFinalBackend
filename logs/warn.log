@@ -10410,3 +10410,2864 @@ Nov-11-2021 22:27:48 | [33mwarn[39m: [33m[[39m
 [33m    __v: 0[39m
 [33m  }[39m
 [33m][39m
+Jan-02-2022 18:54:17 | [33mwarn[39m: [33mSignup Fail for username sadasdadas: Username or email already exists[39m
+Jan-02-2022 18:54:34 | [33mwarn[39m: [33mSignup Fail for username santutu: Username or email already exists[39m
+Jan-02-2022 18:54:40 | [33mwarn[39m: [33mLogin Fail for username santutu: User does not exist[39m
+Jan-02-2022 18:54:44 | [33mwarn[39m: [33mLogin Fail for username santutu: User does not exist[39m
+Jan-02-2022 18:54:47 | [33mwarn[39m: [33mLogin Fail for username santutu: User does not exist[39m
+Jan-02-2022 18:54:56 | [33mwarn[39m: [33mLogin Fail for username ${username}: Password is not valid[39m
+Jan-02-2022 18:57:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:57:34 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:57:41 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:57:41 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:58:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:58:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:58:06 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 18:58:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d21f59b2c559107fcb9ebe"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$mhJNAXrtI8h/vX2h0uSfu.XB6Idc0wf8vnHS49YQlQtpt4r2uvvVa',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 12,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 18:58:12 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 18:59:00 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 18:59:02 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 18:59:03 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 18:59:03 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 18:59:06 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 18:59:08 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 18:59:12 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 19:01:34 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 19:02:40 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 19:02:55 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 19:03:42 | [33mwarn[39m: [33m[][39m
+Jan-02-2022 19:08:04 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 19:08:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 19:08:07 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 19:08:07 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [],[39m
+[33m  __v: 0[39m
+[33m}[39m
+Jan-02-2022 19:08:24 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 19:08:24 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 19:08:26 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 19:09:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:20:52 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:20:52 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:44:21 | [33mwarn[39m: [33mLogin Fail for username ${username}: Password is not valid[39m
+Jan-02-2022 21:44:27 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:44:27 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:47:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:47:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:47:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:55:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 21:55:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:40 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:40 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:40 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:49 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:01:49 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [],[39m
+[33m  __v: 0[39m
+[33m}[39m
+Jan-02-2022 22:01:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:50 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:50 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:01:57 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:01:57 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:02:18 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:02:18 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:02:31 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:02:31 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:02:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:02:37 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:02:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:02:38 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:04:24 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:24 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:04:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:27 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:30 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:30 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:04:32 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:32 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:35 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:04:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:04:53 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:09:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:09:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:09:30 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:09:30 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:09:30 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:09:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:09:53 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:09:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:11:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:11:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:11:04 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:11:04 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:11:04 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:06 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:12:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:15 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:12:15 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 3 } ],[39m
+[33m  __v: 1[39m
+[33m}[39m
+Jan-02-2022 22:12:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:12:16 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:18:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:09 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:18:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:18:17 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:22:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:22:58 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:22:59 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:22:59 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:00 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:10 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:23:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:12 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:23:12 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 3 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 2 }[39m
+[33m  ],[39m
+[33m  __v: 2[39m
+[33m}[39m
+Jan-02-2022 22:23:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:23:13 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:24:29 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:29 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:30 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:30 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:24:32 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:32 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:24:33 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:33 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:35 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:24:35 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 6 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 2 }[39m
+[33m  ],[39m
+[33m  __v: 2[39m
+[33m}[39m
+Jan-02-2022 22:24:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:36 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:36 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:24:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:24:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:17 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:26:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:31 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:26:31 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:36:27 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:36:28 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:36:29 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:36:29 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:38:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:05 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:38:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:06 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:38:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:09 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:38:09 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 9 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 2 }[39m
+[33m  ],[39m
+[33m  __v: 2[39m
+[33m}[39m
+Jan-02-2022 22:38:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:38:10 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:46:18 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:18 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:46:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:20 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:46:23 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:23 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:25 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:46:25 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d221647386d0c097862f6e"),[39m
+[33m  userId: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 10 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 2 }[39m
+[33m  ],[39m
+[33m  __v: 2[39m
+[33m}[39m
+Jan-02-2022 22:46:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:26 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:46:26 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:47:31 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:47:31 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:47:32 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:47:32 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:47:32 | [33mwarn[39m: [33m{ product: undefined, price: undefined, amount: 11 }[39m
+Jan-02-2022 22:47:32 | [33mwarn[39m: [33m{ product: undefined, price: undefined, amount: 2 }[39m
+Jan-02-2022 22:48:45 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:48:45 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:48:45 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:48:45 | [33mwarn[39m: [33m{ product: undefined, price: undefined, amount: 11 }[39m
+Jan-02-2022 22:48:45 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:48:45 | [33mwarn[39m: [33m{ product: undefined, price: undefined, amount: 2 }[39m
+Jan-02-2022 22:49:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:49:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:51 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:51:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:51 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 11 }[39m
+Jan-02-2022 22:51:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:51 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 2 }[39m
+Jan-02-2022 22:51:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d221637386d0c097862f6b"),[39m
+[33m    username: 'santurron',[39m
+[33m    email: 'santinopinnola9@gmail.com',[39m
+[33m    password: '$2b$10$ujnl6Yy03bIF2fnSJECBzOP7sajcmsLj/dksZlJ55KBVobfHDuEvm',[39m
+[33m    firstName: 'Santino',[39m
+[33m    lastName: 'Pinnola',[39m
+[33m    address: 'Monseñor Zaspe',[39m
+[33m    age: 19,[39m
+[33m    phonenumber: 3424773530,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:54 | [33mwarn[39m: [33mel result es:[39m
+Jan-02-2022 22:51:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:54 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 11 }[39m
+Jan-02-2022 22:51:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-02-2022 22:51:54 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 2 }[39m
