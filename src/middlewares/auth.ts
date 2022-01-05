@@ -10,6 +10,7 @@ import { userJoiSchema } from '../interfaces/usersInterfaces';
 import { logger } from '../middlewares/logger'
 import { EmailService } from '../services/gmail';
 import config from '../config';
+import { CartAPI } from '../apis/cartAPI';
 
 const admin = true;
 
@@ -74,7 +75,7 @@ const signUpFunc: VerifyFunctionWithRequest = async (
       });
     } else {
       const newUser = await UserAPI.addUser(req.body);
-      await EmailService.sendEmail(config.GMAIL_EMAIL,'Nuevo Registro', req.body)
+      //await EmailService.sendEmail(config.GMAIL_EMAIL,'Nuevo Registro', req.body)
       return done(null, newUser);
     }
   } catch (err) {

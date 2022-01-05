@@ -34,6 +34,7 @@ export class ProductsDAOMemory {
             description : data.description,
             thumbnail : data.thumbnail,
             timestamp : Date.now(),
+            photos : []
         }
 
         this.productos.push(newProduct);

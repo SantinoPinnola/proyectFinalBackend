@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import * as http from 'http';
+import fileupload from 'express-fileupload';
 import apiRouter from '../routes/index';
 import handlebars from 'express-handlebars';
 import session from 'express-session';
@@ -74,6 +75,12 @@ app.use(session (StoreOptions));
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use(
+	fileupload({
+		useTempFiles: true,
+		tempFileDir: '/tmp/',
+	})
+);
 
 app.use('/api', apiRouter)
 

@@ -5,10 +5,13 @@ import {
 
 
 export const productsSchema = new mongoose.Schema<ProductI>({
-    name : {type : String, require : true, max : 50},
-    price : {type : Number, require : true},
-    description : {type : String, require : true, max : 240} ,
-    thumbnail : {type : String, require : true, max : 64},
-    timestamp : {type : Number, default : Date.now()}
+    name : {type : String, required : true, max : 50},
+    price : {type : Number, required : true},
+    description : {type : String, required : true, max : 240} ,
+    thumbnail : {type : String, required : true, max : 64},
+    timestamp : {type : Number, default : Date.now()},
+    photos : [{
+      photoId : String
+    }]
 });
 

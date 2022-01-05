@@ -458,3 +458,41 @@ Jan-02-2022 22:46:25 | [31merror[39m: [31m{[39m
 [31m  price: undefined,[39m
 [31m  amount: 1[39m
 [31m}[39m
+Jan-03-2022 22:55:57 | [31merror[39m: [31m"address" must be a string[39m
+Jan-03-2022 22:58:47 | [31merror[39m: [31m"address" must be a string[39m
+Jan-03-2022 23:01:06 | [31merror[39m: [31m"address" must be a string[39m
+Jan-03-2022 23:06:40 | [31merror[39m: [31m"address" must be a string[39m
+Jan-03-2022 23:09:15 | [31merror[39m: [31m"firstName" length must be at least 4 characters long[39m
+Jan-03-2022 23:11:15 | [31merror[39m: [31m"Confirm password" does not match[39m
+Jan-03-2022 23:36:03 | [31merror[39m: [31m"address" must be a string[39m
+Jan-03-2022 23:37:05 | [31merror[39m: [31m"admin" is required[39m
+Jan-03-2022 23:39:31 | [31merror[39m: [31mcart validation failed: userId: Path `userId` is required.[39m
+Jan-04-2022 00:06:54 | [31merror[39m: [31m"username" length must be less than or equal to 10 characters long[39m
+Jan-04-2022 16:20:57 | [31merror[39m: [31m"Confirm password" does not match[39m
+Jan-04-2022 16:21:49 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 3 }[39m
+Jan-04-2022 16:25:01 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 3 }[39m
+Jan-04-2022 16:32:01 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 3 }[39m
+Jan-04-2022 16:32:03 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: undefined, amount: 1 }[39m
+Jan-04-2022 16:36:10 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: undefined, amount: 2 }[39m
+Jan-04-2022 16:36:11 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 1 }[39m
+Jan-04-2022 16:37:51 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 1 }[39m
+Jan-04-2022 16:37:53 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: undefined, amount: 3 }[39m
+Jan-04-2022 16:44:14 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 2 }[39m
+Jan-04-2022 16:44:15 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: undefined, amount: 1 }[39m
+Jan-04-2022 16:46:07 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 3 }[39m
+Jan-04-2022 16:46:08 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: undefined, amount: 2 }[39m
+Jan-04-2022 16:49:07 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 2 }[39m
+Jan-04-2022 16:51:51 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 2 }[39m
+Jan-04-2022 16:53:35 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 3 }[39m
+Jan-04-2022 16:55:17 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 2 }[39m
+Jan-04-2022 17:00:55 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 1 }[39m
+Jan-04-2022 17:07:37 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 2 }[39m
+Jan-04-2022 17:10:06 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: undefined, amount: 5 }[39m
+Jan-04-2022 17:11:58 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: undefined, amount: 2 }[39m
+Jan-04-2022 17:12:50 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 2 }[39m
+Jan-04-2022 17:14:25 | [31merror[39m: [31m{ _id: '618da954fb2f9b4b20b9e005', price: 85, amount: 3 }[39m
+Jan-04-2022 17:30:36 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 2 }[39m
+Jan-04-2022 17:34:14 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 1 }[39m
+Jan-04-2022 17:34:19 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: 85, amount: 1 }[39m
+Jan-04-2022 21:34:05 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 10 }[39m
+Jan-04-2022 21:53:29 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 10 }[39m

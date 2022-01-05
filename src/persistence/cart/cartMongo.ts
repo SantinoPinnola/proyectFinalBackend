@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import { CartI, ProductCart, CartBaseClass } from '../../interfaces/cartInterfaces';
+import { NewUserI } from '../../interfaces/usersInterfaces';
 import { logger } from '../../middlewares/logger'
 import { cartSchema } from '../../models/cartModels';
 
@@ -15,18 +16,18 @@ export class CartsMongo implements CartBaseClass {
       const result = await this.carts.findOne({ userId }).lean();
       logger.warn('el result es:', result);
       if (!result) throw new Error('id not found');
-  
+      
       return result;
     }
   
-    async createCart(user : any): Promise<CartI> {
+    async createCart(user : NewUserI, userId : string): Promise<CartI> {
       const newCart = new this.carts({
-        userId : user.id,
+        userId : userId,
         products: [],
-        street : user.street,
-        streetNumber : user.streetNumber,
-        codPostal : user.codPostal,
-        piso? : user.piso,
+        street : user.address,
+        streetNumber : user.addressNumber,
+        codPostal : user.postalCode,
+        piso : user.piso,
         state : user.state,
       });
   
@@ -79,11 +80,14 @@ export class CartsMongo implements CartBaseClass {
       return cart;
     }
   
-  
     async deleteAllProducts(cartId : string) {
       const cart = await this.carts.findById(cartId);
       if (!cart) throw new Error('Cart not found');
       cart.products.splice(0, cart.products.length);
       await cart.save();
+    }
+
+    async deleteCart(userId : string) {
+      await this.carts.findOneAndDelete({userId : userId});
     }
   }

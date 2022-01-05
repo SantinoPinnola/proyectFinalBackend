@@ -4,6 +4,7 @@ export interface newProductI {
     description : string;
     thumbnail : string;
     stock : number;
+    photos : Array<any>;
 }
   
   export interface ProductI {
@@ -13,6 +14,7 @@ export interface newProductI {
     description : string;
     thumbnail : string;
     timestamp : number;
+    photos : Array<any>
 }
   
 export interface ProductQuery {

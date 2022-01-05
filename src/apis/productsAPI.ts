@@ -30,7 +30,7 @@ class prodAPI {
     return newProduct;
   }
 
-  async updateProduct(id: string, productData: newProductI) {
+  async updateProduct(id: string, productData : any) {
     const updatedProduct = await this.productos.update(id, productData);
     return updatedProduct;
   }
@@ -41,6 +41,10 @@ class prodAPI {
 
   async query(options: ProductQuery) {
     return await this.productos.query(options);
+  }
+
+  async pushImg(id : string, data : string) {
+    await this.productos.pushImg(id,data)
   }
 }
 

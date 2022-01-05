@@ -13271,3 +13271,5046 @@ Jan-02-2022 22:51:54 | [33mwarn[39m: [33m[[39m
 [33m  }[39m
 [33m][39m
 Jan-02-2022 22:51:54 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 2 }[39m
+Jan-03-2022 23:49:10 | [33mwarn[39m: [33mSignup Fail for username sarasa: Username or email already exists[39m
+Jan-04-2022 16:21:41 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:41 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:49 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:21:49 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 0[39m
+[33m}[39m
+Jan-04-2022 16:21:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:51 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:21:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:51 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 3 }[39m
+Jan-04-2022 16:21:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:21:54 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:24:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:24:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:24:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:01 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:25:01 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 3 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 1[39m
+[33m}[39m
+Jan-04-2022 16:25:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:03 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:25:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:03 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 6 }[39m
+Jan-04-2022 16:25:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:25:09 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:26:57 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:26:57 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:26:57 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:26:57 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 6 }[39m
+Jan-04-2022 16:26:59 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:26:59 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:26:59 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:26:59 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:31:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:31:38 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:31:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:31:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:01 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:32:01 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 2[39m
+[33m}[39m
+Jan-04-2022 16:32:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:03 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:32:03 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 3 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 3[39m
+[33m}[39m
+Jan-04-2022 16:32:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:06 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:32:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:06 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 3 }[39m
+Jan-04-2022 16:32:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:06 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 1 }[39m
+Jan-04-2022 16:32:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:07 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:32:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:32:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:10 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:36:10 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 5[39m
+[33m}[39m
+Jan-04-2022 16:36:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:11 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:36:11 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 2 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 6[39m
+[33m}[39m
+Jan-04-2022 16:36:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:12 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:36:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:12 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 2 }[39m
+Jan-04-2022 16:36:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:12 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 1 }[39m
+Jan-04-2022 16:36:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:13 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:36:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:36:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:45 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:51 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:37:51 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 8[39m
+[33m}[39m
+Jan-04-2022 16:37:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:53 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:37:53 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 1 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 9[39m
+[33m}[39m
+Jan-04-2022 16:37:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:53 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:56 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:56 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:37:56 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:56 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 1 }[39m
+Jan-04-2022 16:37:56 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:56 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 3 }[39m
+Jan-04-2022 16:37:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:58 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:37:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:37:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:43:59 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:14 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:44:14 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 11[39m
+[33m}[39m
+Jan-04-2022 16:44:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:15 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:44:15 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 2 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 12[39m
+[33m}[39m
+Jan-04-2022 16:44:15 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:17 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:44:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:17 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 2 }[39m
+Jan-04-2022 16:44:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:17 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 1 }[39m
+Jan-04-2022 16:44:18 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:18 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:44:18 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:44:18 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:03 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:46:04 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:04 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:07 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:46:07 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 14[39m
+[33m}[39m
+Jan-04-2022 16:46:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:08 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:46:08 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 3 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 15[39m
+[33m}[39m
+Jan-04-2022 16:46:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:11 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:46:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:11 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 3 }[39m
+Jan-04-2022 16:46:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:11 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 2 }[39m
+Jan-04-2022 16:46:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:12 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:46:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:46:12 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:03 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:49:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:07 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:49:07 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 17[39m
+[33m}[39m
+Jan-04-2022 16:49:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:07 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:08 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:49:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:08 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 2 }[39m
+Jan-04-2022 16:49:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:09 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:49:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:49:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:44 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:51 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:51:51 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 19[39m
+[33m}[39m
+Jan-04-2022 16:51:51 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:52 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:52 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:54 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:51:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:54 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 2 }[39m
+Jan-04-2022 16:51:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:55 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:51:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:51:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:32 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:32 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:53:34 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:34 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:35 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:53:35 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 21[39m
+[33m}[39m
+Jan-04-2022 16:53:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:37 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:53:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:37 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 3 }[39m
+Jan-04-2022 16:53:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:38 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:53:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:55 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:53:56 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:56 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:53:56 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:53:56 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:01 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:13 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:17 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:55:17 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 24[39m
+[33m}[39m
+Jan-04-2022 16:55:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:19 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:55:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:19 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 2 }[39m
+Jan-04-2022 16:55:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:20 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:55:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:21 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:21 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:55:22 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:22 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 16:55:22 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 16:55:22 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:42 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:42 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:47 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:47 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:00:48 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:48 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:00:52 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:52 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:00:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:55 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:00:55 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 28[39m
+[33m}[39m
+Jan-04-2022 17:00:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:55 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:57 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:57 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:00:57 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:57 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 1 }[39m
+Jan-04-2022 17:00:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:58 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:00:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:00:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:33 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:33 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:07:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:36 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:36 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:07:37 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 30[39m
+[33m}[39m
+Jan-04-2022 17:07:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:37 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:38 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:07:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:38 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 2 }[39m
+Jan-04-2022 17:07:40 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:07:40 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:10:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:10:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:10:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:10:06 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:10:06 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [ { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 2 } ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 31[39m
+[33m}[39m
+Jan-04-2022 17:10:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:10:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:10:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:11:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:11:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:11:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:11:58 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:11:58 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 2 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 5 }[39m
+[33m  ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 32[39m
+[33m}[39m
+Jan-04-2022 17:11:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:11:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:11:58 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:12:50 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:12:50 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:12:50 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 4 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 5 }[39m
+[33m  ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 32[39m
+[33m}[39m
+Jan-04-2022 17:12:50 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:12:50 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:12:50 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:25 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:14:25 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 6 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 5 }[39m
+[33m  ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 32[39m
+[33m}[39m
+Jan-04-2022 17:14:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:25 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 6 }[39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 5 }[39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:26 | [33mwarn[39m: [33m{ product: 'Celular Iphone', price: 85, amount: 3 }[39m
+Jan-04-2022 17:14:27 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:27 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:14:52 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:14:52 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:30:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:09 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:36 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:36 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:30:36 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [[39m
+[33m    { _id: new ObjectId("618da94bfb2f9b4b20b9dfff"), amount: 6 },[39m
+[33m    { _id: new ObjectId("618da951fb2f9b4b20b9e002"), amount: 5 },[39m
+[33m    {[39m
+[33m      _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m      amount: 3,[39m
+[33m      price: 85[39m
+[33m    }[39m
+[33m  ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 33[39m
+[33m}[39m
+Jan-04-2022 17:30:36 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:36 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:36 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 8 }[39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 5 }[39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:38 | [33mwarn[39m: [33m{ product: 'Celular Iphone', price: 85, amount: 3 }[39m
+Jan-04-2022 17:30:39 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:30:39 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 8 }[39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 5 }[39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:33:02 | [33mwarn[39m: [33m{ product: 'Celular Iphone', price: 85, amount: 3 }[39m
+Jan-04-2022 17:33:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:33:03 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:33:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:33:03 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:10 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:10 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:34:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:11 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:14 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:34:14 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 34[39m
+[33m}[39m
+Jan-04-2022 17:34:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:14 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:16 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:34:16 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:16 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 1 }[39m
+Jan-04-2022 17:34:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:17 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:19 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:34:19 | [33mwarn[39m: [33m{[39m
+[33m  _id: new ObjectId("61d49e34af06f7eff5f7681c"),[39m
+[33m  userId: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m  products: [[39m
+[33m    {[39m
+[33m      _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m      amount: 1,[39m
+[33m      price: 85[39m
+[33m    }[39m
+[33m  ],[39m
+[33m  street: 'asdasd',[39m
+[33m  streetNumber: 423,[39m
+[33m  codPostal: 3333,[39m
+[33m  piso: 223,[39m
+[33m  state: 'asdas',[39m
+[33m  __v: 35[39m
+[33m}[39m
+Jan-04-2022 17:34:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:20 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:34:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:20 | [33mwarn[39m: [33m{ product: 'Celular Caterpiller', price: 85, amount: 1 }[39m
+Jan-04-2022 17:34:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:20 | [33mwarn[39m: [33m{ product: 'Celular Samsung', price: 85, amount: 1 }[39m
+Jan-04-2022 17:34:23 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:23 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 17:34:23 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 17:34:23 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:18:08 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:18:08 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:33:20 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:33:54 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:33:54 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:34:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:34:05 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:34:05 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:34:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:34:06 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[33m    name: 'Celular Samsung',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  },[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da954fb2f9b4b20b9e005"),[39m
+[33m    name: 'Celular Iphone',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:34:19 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:34:19 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:34:35 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:34:35 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:37:49 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:37:49 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:37:49 | [33mwarn[39m: [33m[][39m
+Jan-04-2022 21:48:27 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:48:33 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:48:33 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:48:33 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[33m    name: 'Celular Caterpiller',[39m
+[33m    price: 85,[39m
+[33m    description: 'Rock Edition',[39m
+[33m    thumbnail: 'img',[39m
+[33m    stock: 16,[39m
+[33m    timestamp: 1636673662531,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:48:40 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:48:40 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:48:40 | [33mwarn[39m: [33m[][39m
+Jan-04-2022 21:53:18 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:53:29 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:53:29 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 21:53:32 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-04-2022 21:53:32 | [33mwarn[39m: [33mel result es:[39m
+Jan-04-2022 23:56:59 | [33mwarn[39m: [33mentrando en file[39m
+Jan-04-2022 23:57:20 | [33mwarn[39m: [33mentrando en file[39m
+Jan-04-2022 23:58:03 | [33mwarn[39m: [33mentrando en file[39m
+Jan-04-2022 23:58:08 | [33mwarn[39m: [33mentrando en file[39m
+Jan-04-2022 23:58:11 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:01:41 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:02:00 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:02:49 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:13:20 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:13:29 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:15:03 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:19:25 | [33mwarn[39m: [33mentrando en file[39m
+Jan-05-2022 00:36:51 | [33mwarn[39m: [33mentrando en file[39m

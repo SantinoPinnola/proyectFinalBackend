@@ -5,7 +5,7 @@ import { isLoggedIn } from '../middlewares/auth';
 import { productsAPI } from '../apis/productsAPI';
 import {logger} from '../middlewares/logger';
 import { CartAPI } from '../apis/cartAPI';
-import { ProductCart } from '../interfaces/cartInterfaces';
+import { orders } from '../persistence/orders/ordersMongo';
 import {EmailService} from '../services/gmail';
 import config from '../config';
 import { UserAPI } from '../apis/userAPI';
@@ -21,7 +21,10 @@ router.get('/', async (req, res) => {
 });
 
 router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
-  res.redirect('/api/vista');
+  //res.redirect('/api/vista');
+  res.status(201).json({
+    msg : 'Logeado con exito'
+  });
 });
 
 router.post('/signup', (req, res, next) => {
@@ -31,8 +34,12 @@ router.post('/signup', (req, res, next) => {
         return next(err);
       }
       if (!user) return res.status(401).json({ data: info });
-  
-      res.redirect('/api')
+      
+      res.status(201).json({ 
+        msg : 'Registrado con exito!',
+        userData : user
+      })
+      //res.redirect('/api')
     })(req, res, next);
 });
 
@@ -55,7 +62,6 @@ router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
 })
 
 
-
 router.post('/logout', (req: Request, res: Response) => {
   req.session.destroy((err: any) => {
       res.redirect('/api');
@@ -69,20 +75,23 @@ router.get('/userCart', async (req: Request, res : Response) => {
 
   let array : Array<any> = await Promise.all(cart.products.map(async (element : any) => {
     const result = await productsAPI.getProducts(element._id) as ProductI[];
-    logger.warn(result); 
-    const order = {
+ 
+    const cartView = {
       product : result[0].name,
       price : result[0].price,
       amount : element.amount
     }
-    logger.warn(order);
-    return order;
+ 
+    return cartView;
   }));
 
-  logger.info(array);
-   res.render('cartView', {
-    products : array
-  })
+  //res.render('cartView', {
+  //  products : array
+  //})
+  res.json({
+    msg : `Carrito del usuario ${userId}`,
+    cart : array
+  });
 })
 
 
@@ -113,36 +122,37 @@ router.get('/submit', async (req : Request, res : Response ) => {
   const userId = user._id;
   const cart = await CartAPI.getCart(userId);
 
-  let array : Array<any> = await Promise.all(cart.products.map(async (element : any) => {
-    const result = await productsAPI.getProducts(element._id);
-    logger.info(result);
-    const order = {
-      result,
-      amount : element.amount
-    }
-    return order;
-  }));
-
-  const  orderComplete = {
-    username : user.username,
-    email : user.email,
-    order : array 
-  };
-
-  let stringOrder = '';
-  for(let index = 0; index < array.length; index++) {
-    stringOrder = stringOrder + `Product: ${array[index].result.name}<br>
-    Price: ${array[index].result.price}<br>
-    Amount : ${array[index].amount}<br>
-    ==============================<br>
-    Username : ${user.username}<br>
-    Email : ${user.email}`;
+  if(cart.products.length == 0 ) {
+    res.status(400).json({msg : 'No hay nigun producto en el carrito'});
   }
   
+  const orderId = await orders.createOrder(userId);
 
-  await EmailService.sendEmail(config.GMAIL_EMAIL, `Nuevo pedido de ${orderComplete.username}`, stringOrder);
+
+  for (var i = 0; i < cart.products.length ; i++) {
+    const result = await productsAPI.getProducts(cart.products[i]._id) as ProductI[];
+    console.log ('producto', result)
+    console.log('carrrito', cart.products);
+  
+    const item = {
+      productId : result[0]._id,
+      amount : cart.products[i].amount,
+      price : cart.products[i].price,
+    }
+
+    const totalPrice = cart.products[i].price * cart.products[i].amount
+    await orders.pushItems(item, orderId, totalPrice);
+  }
+
+  
+
+ // await EmailService.sendEmail(config.GMAIL_EMAIL, `Nuevo pedido de ${.username}`, stringOrder);
   await CartAPI.deleteAllProducts(cart._id);
-  res.redirect('/api/vista');
+  //res.redirect('/api/vista');
+  res.status(201).json({
+    msg : 'Orden creada con exito!',
+    order : await orders.getOrder(orderId)
+  })
 
 });
 

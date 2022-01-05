@@ -65,9 +65,6 @@ class Producto {
       data : await productsAPI.getProducts(),
     });
 
-    res.json({
-      data : await productsAPI.getProducts()
-    })
     //res.render('main',{ products : await productsAPI.getProducts()} );
   }
 

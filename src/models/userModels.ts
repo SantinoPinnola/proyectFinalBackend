@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose, {Schema} from 'mongoose';
 import bcrypt from 'bcrypt';
 import { NewUserI, UserI, UserBaseClass, UserQuery } from '../interfaces/usersInterfaces';
 import config from '../config/index';
@@ -26,18 +26,14 @@ const usersSchema = new mongoose.Schema<UserI>({
     type: String,
     required: true,
   },
-  address : {
-    type : String,
-    required : true,
-  }, 
-  age : { 
-    type : Number,
-    required : true,
-  },
   phonenumber : {
     type : Number,
     required : true,
-  }
+  },
+  admin: {
+    type: Schema.Types.Boolean,
+    default: false
+  },
 });
 
 usersSchema.pre('save', async function (next) {

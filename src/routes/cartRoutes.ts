@@ -3,11 +3,11 @@ import { CartController } from '../controllers/cartController';
 import { isLoggedIn } from '../middlewares/auth';
 const router = Router();
 
-router.get('/', CartController.getCartByUser);
+router.get('/',isLoggedIn,  CartController.getCartByUser);
 
-router.post('/add', CartController.addProduct);
+router.post('/add', isLoggedIn, CartController.addProduct);
 
-router.post('/delete', CartController.deleteProduct);
+router.post('/delete', isLoggedIn, CartController.deleteProduct);
 
 
 export default router; 

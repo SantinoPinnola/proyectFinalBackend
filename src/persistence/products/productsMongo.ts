@@ -46,8 +46,8 @@ export class ProductsMongoDAO {
       return newProduct;
     }
   
-    async update(id: string, newProductData: newProductI): Promise<ProductI> {
-      return this.productos.findByIdAndUpdate(id, newProductData) as unknown as ProductI;
+    async update(id: string, newProductData : any) {
+      return this.productos.findByIdAndUpdate(id, newProductData);
     }
   
     async delete(id: string) {
@@ -72,4 +72,5 @@ export class ProductsMongoDAO {
   
       return this.productos.find(query);
     }
+
   }

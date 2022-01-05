@@ -1,7 +1,7 @@
 import mongoose , { Schema }  from 'mongoose';
 import { Order } from '../interfaces/ordersInterfaces';
 
-const orderSchema = new mongoose.Schema<Order>({
+export const orderSchema = new mongoose.Schema<Order>({
     userId : {
         type : Schema.Types.ObjectId,
         required : true
@@ -20,6 +20,10 @@ const orderSchema = new mongoose.Schema<Order>({
     status : {
       type : String,
       default : "Generado",
+      required : true,
+    },
+    totalPrice : {
+      type : Number,
       required : true,
     }
 })

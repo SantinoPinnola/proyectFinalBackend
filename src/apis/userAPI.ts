@@ -16,9 +16,9 @@ class User {
     return this.users.get();
   }
 
-  async addUser(productData: NewUserI): Promise<UserI> {
-    const newUser = await this.users.add(productData);
-    await CartAPI.createCart(newUser._id);
+  async addUser(userData: NewUserI): Promise<UserI> {
+    const newUser = await this.users.add(userData);
+    await CartAPI.createCart(userData, newUser._id);
     return newUser;
   }
 
@@ -29,7 +29,7 @@ class User {
 
   async deleteUser(id: string) {
     await this.users.delete(id);
-    //await CartAPI.deleteCart(id);
+    await CartAPI.deleteCart(id);
   }
 
   async query(username?: string, email?: string): Promise<UserI> {
