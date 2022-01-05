@@ -30,6 +30,10 @@ class ordersMongo {
         return this.orders.findById(id);
     }
 
+    async getOrderByUserId (userId : string) {
+        return this.orders.find({userId : userId});
+    }
+
     async pushItems ( item : any, orderId: string, totalPrice : number) {
         const orderPushed = await this.orders.findByIdAndUpdate(
             {_id : orderId},

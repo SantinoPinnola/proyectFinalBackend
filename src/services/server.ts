@@ -17,7 +17,7 @@ import Handlebars from 'handlebars';
 
 
 
-const StoreOptions = {
+export const middlewareSession = session( {
     store: MongoStore.create({
       mongoUrl: 'mongodb://localhost:27017/coderhouse'
     }),
@@ -27,7 +27,7 @@ const StoreOptions = {
     cookie : {
         maxAge : 600000
     }
-};
+});
 
 
 
@@ -37,17 +37,6 @@ const app = express ();
 const publicFolderPath = path.resolve(__dirname, '../../public');
 app.use(express.static(publicFolderPath));
 
-
-//const upload = multer({ dest: '../public/images/' });
-
-//app.post('/single', upload.single('imagen'), (req : Request, res : Response) => {
- // if(req.file) {
- //   console.log(req.file);
- //   res.send(req.file);
- // } else {
-  //  res.send(400)
-//  }
-//});
 
 const layoutsFolderPath = path.resolve(__dirname, '../../views/layouts')
 const defaultLayerPth = path.resolve(__dirname, '../../views/layouts/index.hbs');
@@ -70,7 +59,7 @@ app.use(express.urlencoded({
 }));
 
 app.use(cookieParser());
-app.use(session (StoreOptions));
+app.use(middlewareSession);
 
 app.use(passport.initialize());
 app.use(passport.session());

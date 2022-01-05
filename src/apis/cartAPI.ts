@@ -3,7 +3,6 @@ import { CartI } from '../interfaces/cartInterfaces';
 import { UserAPI } from './userAPI';
 import { ProductI } from '../interfaces/productsInterfaces';
 import { productsAPI } from './productsAPI'
-import { logger } from '../middlewares/logger';
 import { NewUserI } from '../interfaces/usersInterfaces';
 
 class Cart {
@@ -34,7 +33,6 @@ class Cart {
       price: product[0].price,
       amount,
     };
-    logger.error(addProduct)
     const updatedCart = await this.carts.addProduct(cartId, addProduct);
     return updatedCart;
   }

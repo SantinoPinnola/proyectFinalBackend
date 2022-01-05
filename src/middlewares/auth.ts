@@ -14,15 +14,6 @@ import { CartAPI } from '../apis/cartAPI';
 
 const admin = true;
 
-export const checkAdmin = (req: Request, res: Response, next: NextFunction) => {
-  logger.info('EJECUTANDO MIDDLEWARE');
-  if (admin) next();
-  else {
-    res.status(401).json({
-      msg: 'No estas autorizado',
-    });
-  }
-};
 
 const strategyOptions: IStrategyOptionsWithRequest = {
   usernameField: 'username',
@@ -65,7 +56,6 @@ const signUpFunc: VerifyFunctionWithRequest = async (
 
     const { email } = req.body;
     const user = await UserAPI.query(username, email);
-    logger.info(user);
     if (user) {
       logger.warn(
         `Signup Fail for username ${username}: Username or email already exists`
@@ -98,7 +88,6 @@ passport.serializeUser((user: any, done) => {
 passport.deserializeUser(async (userId: string, done) => {
   try {
     const result = await UserAPI.getUsers(userId);
-    logger.warn(result);
     done(null, result[0]);
   } catch (err) {
     done(err);

@@ -2,7 +2,6 @@ import { CartAPI } from '../apis/cartAPI';
 import { Request, Response, NextFunction } from 'express';
 import { UserI } from '../interfaces/usersInterfaces';
 import { productsAPI } from '../apis/productsAPI';
-import { logger } from '../middlewares/logger';
 import { orders } from '../persistence/orders/ordersMongo';
 import { ProductI } from '../interfaces/productsInterfaces';
 

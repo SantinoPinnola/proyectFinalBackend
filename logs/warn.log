@@ -18719,3 +18719,30 @@ Jan-05-2022 03:53:34 | [33mwarn[39m: [33m[[39m
 [33m    __v: 0[39m
 [33m  }[39m
 [33m][39m
+Jan-05-2022 15:33:38 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-05-2022 15:33:41 | [33mwarn[39m: [33m[[39m
+[33m  {[39m
+[33m    _id: new ObjectId("61d49e34af06f7eff5f7681a"),[39m
+[33m    username: 'sarasasa',[39m
+[33m    email: 'saras@asdas.com',[39m
+[33m    password: '$2b$10$C7jZHlCpIpQefRf7iTFCFOsI5Kys8U/6/jeDtu6OExPu/ZbNTtCgy',[39m
+[33m    firstName: 'sarasras',[39m
+[33m    lastName: 'asrasras',[39m
+[33m    phonenumber: 4342342342,[39m
+[33m    admin: false,[39m
+[33m    __v: 0[39m
+[33m  }[39m
+[33m][39m
+Jan-05-2022 15:33:41 | [33mwarn[39m: [33mel result es:[39m
