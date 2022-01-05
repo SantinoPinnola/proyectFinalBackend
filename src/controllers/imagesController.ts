@@ -3,7 +3,7 @@ import { UploadedFile } from 'express-fileupload';
 import cloudinary from '../services/cloudinary';
 import { productsAPI } from '../apis/productsAPI';
 import { ProductI } from '../interfaces/productsInterfaces';
-import { logger } from '../middlewares/logger';
+
 class imageController {
 
     async uploadImage (req : Request, res : Response) {
@@ -35,8 +35,6 @@ class imageController {
         }
     }
 
-
-
     async getImage (req : Request, res: Response) {
         try {
             if (!req.params.id)
@@ -57,7 +55,6 @@ class imageController {
             return res.status(400).json({ msg: error.message });
         }
     }
-
 
     async deleteImage (req: Request, res : Response) {
         try {

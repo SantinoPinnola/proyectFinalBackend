@@ -8,10 +8,10 @@ export const orderSchema = new mongoose.Schema<Order>({
     },
     items : [
         {
-          _id: Schema.Types.ObjectId,
+          productId: String,
           amount: Number,
           price : Number
-        },
+        }, 
       ],
     timestamp : {
         type : Number, 

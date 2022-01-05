@@ -10,6 +10,8 @@ import {EmailService} from '../services/gmail';
 import config from '../config';
 import { UserAPI } from '../apis/userAPI';
 import { ProductI } from '../interfaces/productsInterfaces';
+import { checkAdmin } from '../middlewares/checkAdm';
+import { UserController } from '../controllers/usersController';
 const router = Router();
 
 
@@ -19,6 +21,10 @@ router.get('/', async (req, res) => {
   }
     res.render('loginForm');
 });
+
+router.get('/get', isLoggedIn, checkAdmin, UserController.getUsers)
+router.get('/get/:id', isLoggedIn, checkAdmin, UserController.getUsers)
+
 
 router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
   //res.redirect('/api/vista');
@@ -116,44 +122,5 @@ router.post('/update', async (req : Request, res: Response) => {
   res.redirect('/api/vista');
 })
 
-
-router.get('/submit', async (req : Request, res : Response ) => {
-  const user : any = req.user;
-  const userId = user._id;
-  const cart = await CartAPI.getCart(userId);
-
-  if(cart.products.length == 0 ) {
-    res.status(400).json({msg : 'No hay nigun producto en el carrito'});
-  }
-  
-  const orderId = await orders.createOrder(userId);
-
-
-  for (var i = 0; i < cart.products.length ; i++) {
-    const result = await productsAPI.getProducts(cart.products[i]._id) as ProductI[];
-    console.log ('producto', result)
-    console.log('carrrito', cart.products);
-  
-    const item = {
-      productId : result[0]._id,
-      amount : cart.products[i].amount,
-      price : cart.products[i].price,
-    }
-
-    const totalPrice = cart.products[i].price * cart.products[i].amount
-    await orders.pushItems(item, orderId, totalPrice);
-  }
-
-  
-
- // await EmailService.sendEmail(config.GMAIL_EMAIL, `Nuevo pedido de ${.username}`, stringOrder);
-  await CartAPI.deleteAllProducts(cart._id);
-  //res.redirect('/api/vista');
-  res.status(201).json({
-    msg : 'Orden creada con exito!',
-    order : await orders.getOrder(orderId)
-  })
-
-});
 
 export default router;

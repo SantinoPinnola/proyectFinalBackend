@@ -19,8 +19,13 @@ class User {
   }
 
   async getUsers(req: Request, res: Response) {
-    const data = await UserAPI.getUsers(req.params.id);
-    res.json({ msg: 'GET USERS', data });
+    if(req.params.id) {
+      const data = await UserAPI.getUsers(req.params.id);
+      res.json({ users : data });
+    } else {
+      const data = await UserAPI.getUsers();
+      res.json({user : data})
+    }
   }
 
   async addUser(req: Request, res: Response) {
