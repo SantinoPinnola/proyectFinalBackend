@@ -11,7 +11,8 @@ export const productsSchema = new mongoose.Schema<ProductI>({
     thumbnail : {type : String, required : true, max : 64},
     timestamp : {type : Number, default : Date.now()},
     photos : [{
-      photoId : String
+      photoId : String,
+      photoUrl : String
     }]
 });
 

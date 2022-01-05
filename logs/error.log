@@ -496,3 +496,124 @@ Jan-04-2022 17:34:14 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', 
 Jan-04-2022 17:34:19 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: 85, amount: 1 }[39m
 Jan-04-2022 21:34:05 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 10 }[39m
 Jan-04-2022 21:53:29 | [31merror[39m: [31m{ _id: '618da94bfb2f9b4b20b9dfff', price: 85, amount: 10 }[39m
+Jan-05-2022 01:03:35 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [][39m
+[31m}[39m
+Jan-05-2022 01:08:04 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [][39m
+[31m}[39m
+Jan-05-2022 01:09:54 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [][39m
+[31m}[39m
+Jan-05-2022 01:17:29 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [][39m
+[31m}[39m
+Jan-05-2022 01:18:39 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [ { _id: new ObjectId("61d51bd90a2449d0bf577457") } ][39m
+[31m}[39m
+Jan-05-2022 01:18:47 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [[39m
+[31m    { _id: new ObjectId("61d51bd90a2449d0bf577457") },[39m
+[31m    {[39m
+[31m      photoId: 'samples/wzc1hksrio3rnelbifhy',[39m
+[31m      _id: new ObjectId("61d51c1f74ca456d8b1d7554")[39m
+[31m    }[39m
+[31m  ][39m
+[31m}[39m
+Jan-05-2022 01:19:01 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da94bfb2f9b4b20b9dfff"),[39m
+[31m  name: 'Celular Caterpiller',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [[39m
+[31m    { _id: new ObjectId("61d51bd90a2449d0bf577457") },[39m
+[31m    {[39m
+[31m      photoId: 'samples/wzc1hksrio3rnelbifhy',[39m
+[31m      _id: new ObjectId("61d51c1f74ca456d8b1d7554")[39m
+[31m    },[39m
+[31m    {[39m
+[31m      photoId: 'samples/panvoekheqd4d2gz1lv6',[39m
+[31m      _id: new ObjectId("61d51c2774ca456d8b1d755c")[39m
+[31m    }[39m
+[31m  ][39m
+[31m}[39m
+Jan-05-2022 01:32:59 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [][39m
+[31m}[39m
+Jan-05-2022 01:33:11 | [31merror[39m: [31m{[39m
+[31m  _id: new ObjectId("618da951fb2f9b4b20b9e002"),[39m
+[31m  name: 'Celular Samsung',[39m
+[31m  price: 85,[39m
+[31m  description: 'Rock Edition',[39m
+[31m  thumbnail: 'img',[39m
+[31m  stock: 16,[39m
+[31m  timestamp: 1636673662531,[39m
+[31m  __v: 0,[39m
+[31m  photos: [[39m
+[31m    {[39m
+[31m      photoId: 'samples/dihcmbn6kfhr5k99jup0',[39m
+[31m      photoUrl: 'https://res.cloudinary.com/dx068yoqh/image/upload/v1641357253/samples/dihcmbn6kfhr5k99jup0.jpg',[39m
+[31m      _id: new ObjectId("61d51f7bd95e61b82a20c344")[39m
+[31m    }[39m
+[31m  ][39m
+[31m}[39m

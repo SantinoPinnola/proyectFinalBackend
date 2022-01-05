@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { UploadedFile } from 'express-fileupload';
-import { v2 as cloudinary } from 'cloudinary';
+import cloudinary from '../services/cloudinary';
 import { productsAPI } from '../apis/productsAPI';
 import { ProductI } from '../interfaces/productsInterfaces';
 import { logger } from '../middlewares/logger';
@@ -8,9 +8,9 @@ class imageController {
 
     async uploadImage (req : Request, res : Response) {
         try {
-            logger.info('entrando')
+           
             if(req.files) {
-                logger.warn('entrando en file');
+               
                 const id = req.params.id;
                 const { tempFilePath } = req.files.thumbnail as UploadedFile;
                 console.log(tempFilePath);
@@ -20,12 +20,62 @@ class imageController {
 				);
                 console.log('subiendo fotod');
                 const product = await productsAPI.getProducts(id) as ProductI[];
-                const updatedItem = await productsAPI.updateProduct(id, {$push : {photos : public_id } });
+                const newArray = [...product[0].photos, {photoId : public_id, photoUrl : secure_url}]
+                console.log('the new', newArray);
+                const updatedItem = await productsAPI.updateProduct(id, {photos :newArray});
+        
                 res.status(201).json({
                     msg: 'añadiendo imagen',
                 });
                 
             }
+        }
+        catch (error: any) {
+            return res.status(400).json({ msg: error.message });
+        }
+    }
+
+
+
+    async getImage (req : Request, res: Response) {
+        try {
+            if (!req.params.id)
+            return res.status(400).json({ msg: 'ingrese un id de producto'})
+
+            const id = req.params.id;
+            const product = await productsAPI.getProducts(id) as ProductI[];
+            if(!product) {
+                return res.status(404).json({ msg: 'id invalido'})
+            }
+
+            res.json({
+                msg : product[0].photos
+            })
+
+        }
+        catch (error: any) {
+            return res.status(400).json({ msg: error.message });
+        }
+    }
+
+
+    async deleteImage (req: Request, res : Response) {
+        try {
+            if (!req.params.id)
+            return res.status(400).json({ msg: 'ingrese un id de imagen'})
+
+            const id = req.params.id;
+            const deleted = await cloudinary.uploader.destroy(id);
+            
+            
+            if (deleted.result == 'not found' ) {
+                res.status(400).json({msg : 'no se encontro la imagen'});
+            } else { 
+                res.status(200).json({
+                    msg: 'imagen eliminada con exito'
+                })
+            }
+            
         }
         catch (error: any) {
             return res.status(400).json({ msg: error.message });
