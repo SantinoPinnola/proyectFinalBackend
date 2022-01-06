@@ -54,7 +54,6 @@ router.get('/signUpPage', (req: Request, res: Response) => {
 
 router.get('/vista', isLoggedIn,  async (req : Request, res: Response) => {
   const result = await productsAPI.getProducts();
-  logger.warn(result);
   const user : any = req.user;
   const userObject = {
     username : user.username,
