@@ -1,11 +1,12 @@
 export interface Messages {
-    _id : string;
+     userId : string;
     email : string;
     msg: string;
     timestamp: Date;
 }
 
 export interface NewMessages {
+    userId : string;
     email : string;
     msg: string;
     timestamp: Date;

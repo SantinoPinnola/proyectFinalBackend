@@ -13,12 +13,15 @@ export const initWsServer = (app : any) => {
 
     const wrap = (middleware : any) => (socket : any, next : any) => middleware(socket.request, {}, next);
 
+    myWSServer.use(wrap(middlewareSession));
     myWSServer.use(wrap(passport.initialize()));
     myWSServer.use(wrap(passport.session()));
 
 
     myWSServer.use((socket: any, next) => {
 		if (socket.request.user) {
+            console.log("nexteo")
+            console.log(socket.request.user)
 			next();
 		} else {
 			next(new Error('not logged'));
@@ -27,11 +30,9 @@ export const initWsServer = (app : any) => {
     
     myWSServer.on('connection', function (socket : any) {
         console.log('\n\nUn cliente se ha conectado');
-        console.log(`ID DEL SOCKET DEL CLIENTE => ${socket.client.id}`);
-        console.log(`ID DEL SOCKET DEL SERVER => ${socket.request.user._id}`);
 
+        
         socket.on('askData', async () => {
-            console.log('ME LLEGO DATA');
             const messages = await mensajes.find().lean();
             if (messages.length > 0) {
                 socket.emit('messages', messages);
@@ -39,9 +40,14 @@ export const initWsServer = (app : any) => {
         });
 
         socket.on('new-message', async (data : any) => {
-            const newMsg = await mensajes.create(data);
+            const mensaje = {
+                userId : socket.request.user._id,
+                email : socket.request.user.email,
+                msg : data.msg
+            }
+            const newMsg = await mensajes.create(mensaje);
             myWSServer.emit('messages', [newMsg]);
-          });
+        });
         
     })
 

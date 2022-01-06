@@ -38,7 +38,7 @@ export class ProductsMongoDAO {
     }
   
     async add(data: newProductI): Promise<ProductI> {
-      if (!data.name || !data.price || !data.description || !data.thumbnail) throw new Error('invalid data');
+      if (!data.name || !data.price || !data.description || !data.stock) throw new Error('invalid data');
   
       const newProduct = new this.productos(data);
       await newProduct.save();

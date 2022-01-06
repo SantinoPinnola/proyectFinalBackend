@@ -4,6 +4,7 @@ import { UserAPI } from './userAPI';
 import { ProductI } from '../interfaces/productsInterfaces';
 import { productsAPI } from './productsAPI'
 import { NewUserI } from '../interfaces/usersInterfaces';
+import { logger } from '../middlewares/logger';
 
 class Cart {
   private carts;
@@ -24,15 +25,17 @@ class Cart {
 
   async addProduct(
     cartId: string,
-    productId: string,
+    productId: any,
     amount: number
-  ): Promise<CartI> {
-    const product = await productsAPI.getProducts(productId) as ProductI[];
+  ): Promise<CartI> { 
+    const product =  await productsAPI.getProducts(productId) as unknown as ProductI[]
+    console.log("el producto", product)
     const addProduct = {
       _id: productId,
       price: product[0].price,
       amount,
     };
+    logger.info(addProduct)
     const updatedCart = await this.carts.addProduct(cartId, addProduct);
     return updatedCart;
   }

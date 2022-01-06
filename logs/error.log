@@ -632,3 +632,4 @@ Jan-05-2022 03:47:16 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', 
 Jan-05-2022 03:50:41 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: 85, amount: 10 }[39m
 Jan-05-2022 03:50:42 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: 85, amount: 10 }[39m
 Jan-05-2022 03:53:09 | [31merror[39m: [31m{ _id: '618da951fb2f9b4b20b9e002', price: 85, amount: 10 }[39m
+Jan-05-2022 22:35:14 | [31merror[39m: [31m"piso" must be a string[39m

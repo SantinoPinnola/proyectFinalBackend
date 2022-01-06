@@ -22,15 +22,15 @@ router.get('/', async (req, res) => {
     res.render('loginForm');
 });
 
-router.get('/get', isLoggedIn, checkAdmin, UserController.getUsers)
-router.get('/get/:id', isLoggedIn, checkAdmin, UserController.getUsers)
+router.get('/userGet', isLoggedIn, UserController.getUsers)
+router.get('/userGet/:id', isLoggedIn, checkAdmin, UserController.getUsers)
 
 
 router.post('/login', passport.authenticate('login'), (req : Request, res : Response) => {
-  //res.redirect('/api/vista');
-  res.status(201).json({
-    msg : 'Logeado con exito'
-  });
+  res.redirect('/api/vista');
+  //res.status(201).json({
+   //msg : 'Logeado con exito'
+  //});
 });
 
 router.post('/signup', (req, res, next) => {
@@ -45,7 +45,6 @@ router.post('/signup', (req, res, next) => {
         msg : 'Registrado con exito!',
         userData : user
       })
-      //res.redirect('/api')
     })(req, res, next);
 });
 
@@ -74,7 +73,7 @@ router.post('/logout', (req: Request, res: Response) => {
   });
 })
 
-router.get('/userCart', async (req: Request, res : Response) => {
+router.get('/cartView', async (req: Request, res : Response) => {
   const user : any = req.user;
   const userId = user._id;
   const cart = await CartAPI.getCart(userId);
@@ -98,21 +97,6 @@ router.get('/userCart', async (req: Request, res : Response) => {
     msg : `Carrito del usuario ${userId}`,
     cart : array
   });
-})
-
-
-router.get('/datos', (req : Request, res : Response) => {
-  const user : any = req.user;
-  const userObject = {
-    username : user.username,
-    email : user.email,
-    firstName : user.firstName,
-    lastName : user.lastName,
-    address : user.address,
-    phonenumber : user.phonenumber,
-    age : user.age,
-  }
-  res.render('datos', { user : userObject} );
 })
 
 router.post('/update', async (req : Request, res: Response) => {

@@ -7,7 +7,7 @@ router.get('/',isLoggedIn,  CartController.getCartByUser);
 
 router.post('/add', isLoggedIn, CartController.addProduct);
 
-router.post('/delete', isLoggedIn, CartController.deleteProduct);
+router.delete('/delete', isLoggedIn, CartController.deleteProduct);
 
 router.post('/submit', isLoggedIn, CartController.submitCart)
 

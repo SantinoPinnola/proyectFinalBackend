@@ -2,7 +2,6 @@ export interface newProductI {
     name: string;
     price: number;
     description : string;
-    thumbnail : string;
     stock : number;
     photos : Array<any>;
 }
@@ -12,7 +11,7 @@ export interface newProductI {
     name: string;
     price: number;
     description : string;
-    thumbnail : string;
+    stock : number;
     timestamp : number;
     photos : Array<string>
 }

@@ -6,6 +6,7 @@ import { isLoggedIn } from '../middlewares/auth';
 
 const router = Router();
 
+
 router.get('/', productsController.getProducts);
 
 router.get('/:id', productsController.checkProductExists, productsController.getProducts);
@@ -18,3 +19,6 @@ router.delete('/delete/:id', isLoggedIn, checkAdmin, productsController.checkPro
 
 
 export default router;
+
+
+

@@ -16,6 +16,7 @@ function renderMsg(message) {
 }
   
 
+
 socket.on('messages', function(data) { 
     console.log('RENDERIZANDO DATA');
     data.forEach((msg) => {

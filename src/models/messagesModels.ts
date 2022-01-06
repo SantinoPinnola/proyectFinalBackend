@@ -4,6 +4,10 @@ import {Messages} from '../interfaces/messagesInterfaces'
 const messagesCollection = 'messages';
 
 export const MessagesSchema = new mongoose.Schema<Messages>({
+    userId : {
+        type : String,
+        required : true
+    } ,
     email : {
         type : String, 
         require : true, 

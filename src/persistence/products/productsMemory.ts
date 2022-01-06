@@ -32,7 +32,7 @@ export class ProductsDAOMemory {
             name : data.name,
             price : data.price,
             description : data.description,
-            thumbnail : data.thumbnail,
+            stock : data.stock,
             timestamp : Date.now(),
             photos : []
         }

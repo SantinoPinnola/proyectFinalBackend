@@ -16,8 +16,8 @@ export interface CartI {
 
 export interface ProductCart {
   _id: string;
-  amount: number;
   price: number;
+  amount: number;
 }
 
 export interface CartBaseClass {

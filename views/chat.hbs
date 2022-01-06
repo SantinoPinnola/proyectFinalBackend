@@ -14,9 +14,9 @@
 </div>
  <script>  
       const sendMessage = () => {
-           let msg = {
-               msg : document.getElementById('msg').value,
-           }
-           socket.emit('new-message', msg );
+          let msg = {
+              msg : document.getElementById('msg').value,
+          }
+           socket.emit('new-message', msg );    
      }
  </script>
