@@ -25,7 +25,7 @@ class imageController {
                 const updatedItem = await productsAPI.updateProduct(id, {photos :newArray});
         
                 res.status(201).json({
-                    msg: 'añadiendo imagen',
+                    msg: 'Imagen añadida con exito!',
                 });
                 
             }
