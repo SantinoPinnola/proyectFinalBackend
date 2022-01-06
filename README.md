@@ -2,24 +2,33 @@
 ## Final Project
 App created with NodeJS, using Typescript. The server is working with Express.
 
+## Prerequisites
 
-command to start the app:
+- node >=14.0.0
+- npm >=6.0.0
+
+## Install
+
+```sh
+npm install
 ```
+
+## Build
+
+```sh
+npm run build
+```
+
+## Usage
+
+```sh
 npm run start
-
 ```
 
-# ENDPOINTS
+## Run as dev
 
-## Products  
-- GET ROUTES: localhost:8080/products/list or localhost:8080/products/list/:id
-- POST ROUTES: localhost:8080/products/add
-- PUT ROUTES: localhost:8080/products/update/:id
-- DELETE ROUTES: localhost:8080/products/delete/:id
-
-## Cart
-- GET ROUTES: localhost:8080/cart/list or localhost:8080/cart/list/:id
-- POST ROUTES: localhost:8080/cart/add/:id
-- DELETE ROUTES: localhost:8080/cart/delete/:id
+```sh
+npm run dev
+```
 
 
