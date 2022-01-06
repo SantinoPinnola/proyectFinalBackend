@@ -29,13 +29,11 @@ class Cart {
     amount: number
   ): Promise<CartI> { 
     const product =  await productsAPI.getProducts(productId) as unknown as ProductI[]
-    console.log("el producto", product)
     const addProduct = {
       _id: productId,
       price: product[0].price,
       amount,
     };
-    logger.info(addProduct)
     const updatedCart = await this.carts.addProduct(cartId, addProduct);
     return updatedCart;
   }

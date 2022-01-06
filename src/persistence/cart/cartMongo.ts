@@ -14,7 +14,6 @@ export class CartsMongo implements CartBaseClass {
   
     async get(userId: string): Promise<any>{
       const result = await this.carts.findOne({ userId }).lean();
-      logger.warn('el result es:', result);
       if (!result) throw new Error('id not found');
       
       return result;
